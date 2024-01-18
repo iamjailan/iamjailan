@@ -67,6 +67,7 @@ export const projectsData = [
       "i have created Wadan Real Estate Project using latest version MERN stack, in the website i created the functionality of sign up and sign in.",
     tags: ["React", "Express", "MongoDB", "Tailwind", "Node"],
     imageUrl: wadan,
+    linkUrl: "https://wadan-estate.onrender.com/",
   },
   {
     title: "Chatak Weather",
@@ -80,6 +81,7 @@ export const projectsData = [
       "React Router",
     ],
     imageUrl: chatak,
+    linkUrl: "https://weather-af.netlify.app/",
   },
   {
     title: "Singar Store",
@@ -87,6 +89,7 @@ export const projectsData = [
       "this i an e-commerce app i created using React, and Tailwind CSS, and also used the Firebase for storage handling.",
     tags: ["React", "React Router", "React Redux", "Tailwind"],
     imageUrl: singar,
+    linkUrl: "https://singar.netlify.app/",
   },
 ] as const;
 
