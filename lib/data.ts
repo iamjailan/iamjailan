@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import singar from "@/public/Singar.png";
+import chatak from "@/public/chatak.png";
+import wadan from "@/public/wadan.png";
 
 export const links = [
   {
@@ -64,14 +64,14 @@ export const projectsData = [
   {
     title: "Wadan Real Estate",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "i have created Wadan Real Estate Project using latest version MERN stack, in the website i created the functionality of sign up and sign in.",
     tags: ["React", "Express", "MongoDB", "Tailwind", "Node"],
-    imageUrl: corpcommentImg,
+    imageUrl: wadan,
   },
   {
     title: "Chatak Weather",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "I have created thid project using react and react router, it's a weather app with multilingual functionality using i18next library.",
     tags: [
       "React",
       "JavaScript",
@@ -79,14 +79,14 @@ export const projectsData = [
       "Tailwind",
       "React Router",
     ],
-    imageUrl: rmtdevImg,
+    imageUrl: chatak,
   },
   {
     title: "Singar Store",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "this i an e-commerce app i created using React, and Tailwind CSS, and also used the Firebase for storage handling.",
     tags: ["React", "React Router", "React Redux", "Tailwind"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: singar,
   },
 ] as const;
 
