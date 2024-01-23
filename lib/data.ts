@@ -68,6 +68,7 @@ export const projectsData = [
     tags: ["React", "Express", "MongoDB", "Tailwind", "Node"],
     imageUrl: wadan,
     linkUrl: "https://wadan-estate.onrender.com/",
+    githubUrl: "https://github.com/iamjailan/mern-estate-",
   },
   {
     title: "Chatak Weather",
@@ -82,6 +83,7 @@ export const projectsData = [
     ],
     imageUrl: chatak,
     linkUrl: "https://weather-af.netlify.app/",
+    githubUrl: "https://github.com/iamjailan/weather",
   },
   {
     title: "Singar Store",
@@ -90,6 +92,7 @@ export const projectsData = [
     tags: ["React", "React Router", "React Redux", "Tailwind"],
     imageUrl: singar,
     linkUrl: "https://singar.netlify.app/",
+    githubUrl: "https://github/iamjailan/singar-store",
   },
 ] as const;
 
@@ -104,10 +107,10 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
+  "TypeORM",
+  "ReactQuery",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",

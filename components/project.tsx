@@ -5,6 +5,9 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
+import { BsGithub } from "react-icons/bs";
+import { LuView } from "react-icons/lu";
+import { HiStatusOnline } from "react-icons/hi";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -14,6 +17,7 @@ export default function Project({
   tags,
   imageUrl,
   linkUrl,
+  githubUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -48,6 +52,22 @@ export default function Project({
               </li>
             ))}
           </ul>
+          <section className="flex justify-around items-center mt-3">
+            <Link
+              className="cursor-pointer text-lg opacity-70 transition-opacity duration-300 hover:opacity-100"
+              href={githubUrl}
+              target="_blank"
+            >
+              <BsGithub />
+            </Link>
+            <Link
+              className="cursor-pointer text-lg opacity-70 transition-opacity duration-300 hover:opacity-100"
+              href={linkUrl}
+              target="_blank"
+            >
+              <HiStatusOnline />
+            </Link>
+          </section>
         </div>
         <Link href={linkUrl} target="_blank">
           <Image
