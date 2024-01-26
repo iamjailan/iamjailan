@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "I worked as Full-Stack developer in Kabul with MCCO(www.mcco.af) Org, I created their website using Next.js, Tailwind CSS and MongoDB",
     icon: React.createElement(LuGraduationCap),
-    date: "2023 - 2024",
+    date: "2023",
   },
   {
     title: "Back-End Developer",
@@ -104,6 +104,7 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "MedusaJS",
   "Git",
   "Tailwind",
   "Prisma",
@@ -115,4 +116,5 @@ export const skillsData = [
   "PostgreSQL",
   "Python",
   "Framer Motion",
+  "Learning Docker",
 ] as const;
