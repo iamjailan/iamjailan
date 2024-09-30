@@ -10,9 +10,58 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Jailan Samun | Personal Portfolio | Full Stack Developer",
-  description:
-    "Jailan Samun is a full-stack developer with 3 years of experience.",
+  title: "Jailan Samun | Personal Portfolio | Full Stack Developer",,
+  openGraph: {
+    description:
+      "Jailan Samun is a full-stack developer with 3 years of experience.",
+    images: [""],
+  },
+  keywords: [
+  "Full-Stack Developer",
+    "Jailan Samun",
+    "Jailan Mirkhel",
+    "Ahmad Jailan Samun",
+  "Backend Developer",
+  "NestJS",
+  "Node.js",
+  "React",
+  "React Native",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "Prisma",
+  "TypeORM",
+  "PostgreSQL",
+  "MySQL",
+  "MongoDB",
+  "Express.js",
+  "Azure Web Services",
+  "Firebase",
+  "Twilio Integration",
+  "Docker",
+  "Kubernetes",
+  "REST APIs",
+  "GraphQL",
+  "Vite",
+  "Tailwind CSS",
+  "React Query",
+  "React Redux",
+  "Full-Stack Web Development",
+  "Backend Architecture",
+  "API Development",
+  "Test-Driven Development",
+  "Chargebee Integration",
+  "Web App Development",
+  "Time Management App",
+  "Serverless Applications",
+  "VPS Hosting",
+  "Remote Software Developer",
+  "Mid-level Developer",
+  "Tech and IT Career",
+  "Azure Deployment",
+  "Cloud Infrastructure",
+  "API Security"
+]
 };
 
 export default function RootLayout({
