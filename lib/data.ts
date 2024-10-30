@@ -51,6 +51,14 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
+    title: "NestsJS Developer",
+    location: "Remote from AF",
+    description:
+      "I worked as a back-end developer for 4 months with Blissio.ai, i worked with and created their Backend using Nestjs. I also upskilled to the Nestjs developer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024",
+  },
+  {
     title: "Full-Stack Developer",
     location: "Kabul, AF",
     description:
