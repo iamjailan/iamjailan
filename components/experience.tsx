@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { ReactNode } from "react";
 import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
@@ -19,9 +19,10 @@ export default function Experience() {
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
-        {experiencesData.map((item, index) => (
-          <React.Fragment key={index}>
+        {
+          experiencesData.map((item, index) => (
             <VerticalTimelineElement
+              key={index}
               contentStyle={{
                 background:
                   theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
@@ -50,8 +51,8 @@ export default function Experience() {
                 {item.description}
               </p>
             </VerticalTimelineElement>
-          </React.Fragment>
-        ))}
+          )) as ReactNode
+        }
       </VerticalTimeline>
     </section>
   );

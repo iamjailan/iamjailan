@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     description:
       "Jailan Samun is a full-stack developer with 3 years of experience.",
-    images: [""],
+    images: "/wadan.png",
   },
   keywords: [
     "Full-Stack Developer",
