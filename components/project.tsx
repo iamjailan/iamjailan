@@ -57,6 +57,7 @@ export default function Project({
               className="cursor-pointer text-lg opacity-70 transition-opacity duration-300 hover:opacity-100"
               href={githubUrl}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <BsGithub />
             </Link>
@@ -64,12 +65,13 @@ export default function Project({
               className="cursor-pointer text-lg opacity-70 transition-opacity duration-300 hover:opacity-100"
               href={linkUrl}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <HiStatusOnline />
             </Link>
           </section>
         </div>
-        <Link href={linkUrl} target="_blank">
+        <Link href={linkUrl} target="_blank" rel="noopener noreferrer">
           <Image
             src={imageUrl}
             alt="Project I worked on"
