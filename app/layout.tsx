@@ -12,13 +12,47 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jailan Samun | Personal Portfolio | Full Stack Developer",
+  metadataBase: new URL("https://me.sleepany.com"),
+  title: "Jailan Samun | Full Stack Developer",
   description:
-    "Jailan Samun is a full-stack developer with 3 years of experience.",
+    "Jailan Samun is a full-stack developer with 5 years of experience in backend, DevOps, and AI. Specializing in React, Next.js, Node.js, NestJS, and TypeScript.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
+    title: "Jailan Samun | Full Stack Developer",
     description:
-      "Jailan Samun is a full-stack developer with 3 years of experience.",
-    images: "/wadan.png",
+      "Full-stack developer with 5 years of experience in backend, DevOps, and AI. Building modern web applications with React, Next.js, and Node.js.",
+    url: "https://me.sleepany.com",
+    siteName: "Jailan Samun Portfolio",
+    images: [
+      {
+        url: "/profile.jpg",
+        width: 192,
+        height: 192,
+        alt: "Jailan Samun",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Jailan Samun | Full Stack Developer",
+    description:
+      "Full-stack developer with 5 years of experience in backend, DevOps, and AI.",
+    images: ["/profile.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   keywords: [
     "Full-Stack Developer",
@@ -27,45 +61,26 @@ export const metadata: Metadata = {
     "Ahmad Jailan Samun",
     "Backend Developer",
     "NestJS",
-    "Aseel",
     "Node.js",
     "React",
-    "React Native",
     "Next.js",
     "TypeScript",
     "JavaScript",
     "Prisma",
     "TypeORM",
     "PostgreSQL",
-    "MySQL",
     "MongoDB",
     "Express.js",
-    "Azure Web Services",
-    "Firebase",
-    "Twilio Integration",
     "Docker",
-    "Kubernetes",
     "REST APIs",
     "GraphQL",
-    "Vite",
     "Tailwind CSS",
-    "React Query",
-    "React Redux",
     "Full-Stack Web Development",
     "Backend Architecture",
     "API Development",
-    "Test-Driven Development",
-    "Chargebee Integration",
-    "Web App Development",
-    "Time Management App",
-    "Serverless Applications",
-    "VPS Hosting",
-    "Remote Software Developer",
-    "Mid-level Developer",
-    "Tech and IT Career",
-    "Azure Deployment",
-    "Cloud Infrastructure",
-    "API Security",
+    "DevOps",
+    "Azure",
+    "AI Engineering",
   ],
 };
 
@@ -76,6 +91,37 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Jailan Samun",
+              url: "https://me.sleepany.com",
+              image: "https://me.sleepany.com/profile.jpg",
+              jobTitle: "Full-Stack Developer",
+              sameAs: [
+                "https://github.com/iamjailan",
+                "https://linkedin.com/in/iamjailan",
+              ],
+              knowsAbout: [
+                "React",
+                "Next.js",
+                "Node.js",
+                "NestJS",
+                "TypeScript",
+                "PostgreSQL",
+                "MongoDB",
+                "Docker",
+                "DevOps",
+                "AI Engineering",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
