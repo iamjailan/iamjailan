@@ -6,6 +6,7 @@ import singar from "@/public/Singar.png";
 import chatak from "@/public/chatak.png";
 import wadan from "@/public/wadan.png";
 import marghai from "@/public/marghai.jpg";
+import sunzala from "@/public/sunzala_project.jpg";
 
 export const links = [
   {
@@ -71,6 +72,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Sunzala Afghan Store",
+    description:
+      "An Afghan marketplace connecting buyers with authentic crafts, spices, clothing, and gemstones.",
+    tags: ["Next.js", "Tailwind", "E-commerce"],
+    imageUrl: sunzala,
+    linkUrl: "https://sunzala.vercel.app",
+    githubUrl: "https://github.com/iamjailan/sunzala-store.git",
+  },
+  {
     title: "Marghai Job Portal",
     description:
       "A full-stack job portal with secure authentication, job browsing, filtering, and real-time applications.",
@@ -112,6 +122,7 @@ export const projectsData = [
     linkUrl: "https://singar.netlify.app/",
     githubUrl: "https://github.com/iamjailan/singar-store",
   },
+
 ] as const;
 
 export const skillsData = [

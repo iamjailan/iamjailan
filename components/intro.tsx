@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/profile.png"
+              src="/profile.jpg"
               alt="Jailan Samun"
               width="192"
               height="192"
