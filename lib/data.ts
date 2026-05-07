@@ -45,18 +45,18 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Back-End Developer",
+    title: "Full-Stack Developer",
     location: "Kabul, AF – AseelApp",
     description:
-      "Worked as a Back-End Developer at AseelApp for one year, building and maintaining backend services using MedusaJS and expanding into full-stack development.",
+      "Worked as a Full-Stack Developer at AseelApp for one year, building and maintaining backend services using MedusaJS and expanding into full-stack development.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 – 2024",
   },
   {
-    title: "Backend Developer",
+    title: "Full-Stack Developer",
     location: "Remote – blissio.ai",
     description:
-      "Worked as a Backend Developer at blissio.ai, developing scalable APIs and services using NestJS.",
+      "Worked as a Full-Stack Developer at blissio.ai, developing scalable APIs and services using NestJS.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 – 2026",
   },
