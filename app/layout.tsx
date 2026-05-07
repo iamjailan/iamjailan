@@ -16,6 +16,15 @@ export const metadata: Metadata = {
   title: "Jailan Samun | Full Stack Developer",
   description:
     "Jailan Samun is a full-stack developer with 5 years of experience in backend, DevOps, and AI. Specializing in React, Next.js, Node.js, NestJS, and TypeScript.",
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    shortcut: ["/favicon.ico"],
+  },
   alternates: {
     canonical: "/",
   },
@@ -84,6 +93,10 @@ export const metadata: Metadata = {
   ],
 };
 
+export const viewport = {
+  themeColor: "#ffffff",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -97,26 +110,52 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Jailan Samun",
-              url: "https://me.sleepany.com",
-              image: "https://me.sleepany.com/profile.jpg",
-              jobTitle: "Full-Stack Developer",
-              sameAs: [
-                "https://github.com/iamjailan",
-                "https://linkedin.com/in/iamjailan",
-              ],
-              knowsAbout: [
-                "React",
-                "Next.js",
-                "Node.js",
-                "NestJS",
-                "TypeScript",
-                "PostgreSQL",
-                "MongoDB",
-                "Docker",
-                "DevOps",
-                "AI Engineering",
+              "@graph": [
+                {
+                  "@type": "WebSite",
+                  "@id": "https://me.sleepany.com/#website",
+                  url: "https://me.sleepany.com/",
+                  name: "Jailan Samun",
+                  alternateName: "Jailan Samun | Full Stack Developer",
+                  inLanguage: "en",
+                },
+                {
+                  "@type": "Organization",
+                  "@id": "https://me.sleepany.com/#organization",
+                  name: "Jailan Samun",
+                  url: "https://me.sleepany.com/",
+                  logo: {
+                    "@type": "ImageObject",
+                    url: "https://me.sleepany.com/android-chrome-512x512.png",
+                    width: 512,
+                    height: 512,
+                  },
+                },
+                {
+                  "@type": "Person",
+                  "@id": "https://me.sleepany.com/#person",
+                  name: "Jailan Samun",
+                  url: "https://me.sleepany.com/",
+                  image: "https://me.sleepany.com/profile.jpg",
+                  jobTitle: "Full-Stack Developer",
+                  worksFor: { "@id": "https://me.sleepany.com/#organization" },
+                  sameAs: [
+                    "https://github.com/iamjailan",
+                    "https://linkedin.com/in/iamjailan",
+                  ],
+                  knowsAbout: [
+                    "React",
+                    "Next.js",
+                    "Node.js",
+                    "NestJS",
+                    "TypeScript",
+                    "PostgreSQL",
+                    "MongoDB",
+                    "Docker",
+                    "DevOps",
+                    "AI Engineering",
+                  ],
+                },
               ],
             }),
           }}
