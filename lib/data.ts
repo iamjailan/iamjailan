@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF – AseelApp",
     description:
-      "Worked as a Full-Stack Developer at AseelApp for one year, building and maintaining backend services using MedusaJS and expanding into full-stack development.",
+      "Worked as a Full-Stack Developer at AseelApp for one year, building frontend experiences with React, Next.js, and React Native while maintaining backend services using MedusaJS.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 – 2024",
   },
@@ -56,9 +56,17 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote – blissio.ai",
     description:
-      "Worked as a Full-Stack Developer at blissio.ai, developing scalable APIs and services using NestJS.",
+      "Worked as a Full-Stack Developer at blissio.ai, building frontend experiences with React, Next.js, and React Native while developing scalable APIs and services using NestJS.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 – 2026",
+  },
+  {
+    title: "Software Engineer",
+    location: "Remote – Profitwave360 LLC",
+    description:
+      "Worked as a Software Engineer at Profitwave360 LLC, improving the organization website, optimizing SEO, and enhancing overall web performance.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2026 – Present",
   },
   {
     title: "Full-Stack Developer",
@@ -143,6 +151,10 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Python",
+  "SEO",
+  "Technical SEO",
+  "On-Page SEO",
+  "Web Performance",
   "Framer Motion",
   "Learning Docker",
   "DevOps",
