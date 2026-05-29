@@ -18,16 +18,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF – MCCO.af",
     description:
-      "Worked as a Full-Stack Developer at MCCO, building the company website using Next.js, Tailwind CSS, and MongoDB.",
+      "Served as a Full-Stack Developer at MCCO, architecting and launching the company website using Next.js, Tailwind CSS, and MongoDB to deliver a modern and professional digital presence.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF – AseelApp",
     description:
-      "Worked as a Full-Stack Developer at AseelApp for one year, building frontend experiences with React, Next.js, and React Native while maintaining backend services using MedusaJS.",
+      "Joined AseelApp as a Backend Developer, building APIs and collaborating with frontend developers and UI/UX designers. Transitioned to mobile development, working on the Aseel Atalan app using React Native. Later moved to web frontend, building and contributing to the Aseel frontend alongside the team.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 – 2024",
   },
@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote – blissio.ai",
     description:
-      "Worked as a Full-Stack Developer at blissio.ai, building frontend experiences with React, Next.js, and React Native while developing scalable APIs and services using NestJS.",
+      "Joined blissio.ai as a Backend Developer, managing the backend team and building APIs for the blissio.ai app. Deployed and managed AI models on Azure and Google Cloud, overseeing CI/CD pipelines and deployments across Azure, Google Cloud, and Digital Ocean while handling all DevOps operations. Later worked on the app frontend using React Native.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 – 2026",
   },
@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Remote – Profitwave360 LLC",
     description:
-      "Worked as a Software Engineer at Profitwave360 LLC, improving the organization website, optimizing SEO, and enhancing overall web performance.",
+      "Currently working as a Software Engineer at Profitwave360 LLC, improving the organization's websites, optimizing SEO, enhancing web performance, and delivering ongoing frontend and backend improvements.",
     icon: React.createElement(CgWorkAlt),
     date: "2026 – Present",
   },
@@ -72,7 +72,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF / Remote",
     description:
-      "Currently working as a Full-Stack Developer and open to freelance and full-time opportunities. Tech stack includes React, Next.js, Node.js, TypeScript, Express.js, Tailwind CSS, Prisma, PostgreSQL, and MongoDB.",
+      "Currently working as a Full-Stack Developer and open to freelance and full-time opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles (including combinations of these areas). Tech stack includes React, Next.js, Node.js, TypeScript, Express.js, Tailwind CSS, Prisma, PostgreSQL, and MongoDB.",
     icon: React.createElement(FaReact),
     date: "Present",
   },
@@ -83,10 +83,11 @@ export const projectsData = [
     title: "Sunzala Afghan Store",
     description:
       "An Afghan marketplace connecting buyers with authentic crafts, spices, clothing, and gemstones.",
-    tags: ["Next.js", "Tailwind", "E-commerce"],
+    tags: ["Next.js", "Prisma", "PostgreSQL", "React Query", "Tailwind", "E-commerce"],
     imageUrl: sunzala,
     linkUrl: "https://sunzala.vercel.app",
     githubUrl: "https://github.com/iamjailan/sunzala-store.git",
+    year: "2026",
   },
   {
     title: "Marghai Job Portal",
@@ -96,6 +97,7 @@ export const projectsData = [
     imageUrl: marghai,
     linkUrl: "https://marghai.vercel.app/",
     githubUrl: "https://github.com/iamjailan/marghai-jobs-landing",
+    year: "2025",
   },
   {
     title: "Wadan Real Estate",
@@ -105,6 +107,7 @@ export const projectsData = [
     imageUrl: wadan,
     linkUrl: "https://wadan-estate.onrender.com/",
     githubUrl: "https://github.com/iamjailan/mern-estate-",
+    year: "2023 – 2024",
   },
   {
     title: "Chatak Weather",
@@ -120,6 +123,7 @@ export const projectsData = [
     imageUrl: chatak,
     linkUrl: "https://weather-af.netlify.app/",
     githubUrl: "https://github.com/iamjailan/weather",
+    year: "2023",
   },
   {
     title: "Singar Store",
@@ -129,6 +133,7 @@ export const projectsData = [
     imageUrl: singar,
     linkUrl: "https://singar.netlify.app/",
     githubUrl: "https://github.com/iamjailan/singar-store",
+    year: "2023",
   },
 
 ] as const;
