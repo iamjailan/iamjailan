@@ -1,0 +1,207 @@
+# Jailan Samun - Full Profile
+
+> Full Stack Software Developer | 5+ years of experience | Kabul, Afghanistan
+
+This is the **full detailed version** of Jailan Samun's professional profile, intended for AI models and LLM agents that want comprehensive context.
+
+---
+
+## Summary
+
+Jailan Samun (also referred to as Ahmad Jailan) is a Full Stack Software Developer with over five years of experience building modern web applications, mobile apps, scalable backend systems, and cloud infrastructure.
+
+He has worked across multiple industries including e-commerce, job platforms, real estate, AI platforms, and local Afghan businesses. His career shows strong progression from full-stack web development into backend leadership, AI model deployment, DevOps, and cross-platform mobile development.
+
+He is currently based in Kabul, Afghanistan, and is open to remote, hybrid, and full-time opportunities worldwide, particularly in Full-Stack, Backend, Frontend, DevOps, and Database roles.
+
+---
+
+## About Me
+
+Full Stack Developer with over 5 years of experience building and scaling production web and mobile applications, leading backend teams, and deploying AI infrastructure on Azure and Google Cloud. I specialize in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
+
+My favorite part of programming is solving complex problems end-to-end. My core stack is React, Next.js, Node.js, TypeScript, PostgreSQL, and Prisma. I am also experienced with NestJS, React Query, Redux, and DevOps practices.
+
+---
+
+## Professional Experience
+
+### Profitwave360 LLC
+**Software Engineer** | Remote | 2026 – Present
+
+Driving website modernization, SEO optimization, and performance improvements as a Software Engineer at Profitwave360 LLC. Delivering ongoing frontend and backend enhancements that directly impact the organization's online presence and user experience.
+
+### blissio.ai
+**Backend Developer / Backend Team Lead** | Remote | 2024 – 2026
+
+- Led the backend team and architected production APIs for the core application.
+- Managed full application and API deployments for the entire platform across Azure, Google Cloud, and Digital Ocean using Docker.
+- Deployed and maintained AI models on Azure and Google Cloud.
+- Owned end-to-end DevOps responsibilities, including CI/CD pipelines and infrastructure management.
+- Later contributed to the React Native mobile frontend.
+
+### AseelApp
+**Full-Stack Developer** | Kabul, Afghanistan | 2023 – 2024
+
+Progressed through three distinct roles within one year: started as Backend Developer building core APIs while collaborating with frontend and UI/UX teams, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform.
+
+### MCCO.af
+**Full-Stack Developer** | Kabul, Afghanistan | 2023
+
+Built and launched MCCO's official website from the ground up as the sole Full-Stack Developer. Designed the full-stack architecture using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment, delivering a production-ready, professional digital presence for the company.
+
+### Open to Opportunities
+**Present**
+
+Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles. Open to both remote and on-site positions worldwide.
+
+---
+
+## Technical Skills
+
+### Frontend Development
+- React.js
+- Next.js (App Router & Pages Router)
+- TypeScript
+- JavaScript (ES6+)
+- Tailwind CSS
+- Redux / React Redux
+- React Query (TanStack Query)
+- Framer Motion
+- React Native (Mobile Development)
+- Responsive and accessible UI design
+
+### Backend & API Development
+- Node.js
+- Express.js
+- NestJS
+- RESTful API design
+- WebSockets
+- Authentication & Authorization systems
+- Python
+
+### Databases & ORMs
+- PostgreSQL
+- MongoDB
+- Prisma
+- TypeORM
+- Firebase (Realtime Database & Firestore)
+
+### Cloud, DevOps & Infrastructure
+- Microsoft Azure (App Services, Functions, AI/ML services)
+- Google Cloud Platform (GCP)
+- Digital Ocean
+- Docker
+- CI/CD Pipelines (Azure DevOps, GitHub Actions, etc.)
+- Deployment automation and monitoring
+- Infrastructure as Code awareness
+
+### Other Technical Skills
+- Technical SEO & On-Page SEO
+- Web Performance Optimization
+- Git & GitHub workflows
+- MedusaJS (Headless E-commerce)
+- E-commerce platform development
+
+---
+
+## Featured Projects
+
+My most recent personal project is Sunzala Afghan Store. You can click on any project to view the live demo or explore the source code. Please note that many of these projects are from earlier stages of my career, as the majority of my professional time has been spent building production applications for companies.
+
+### Sunzala Afghan Store (2026)
+An Afghan marketplace connecting buyers with authentic local products including crafts, spices, clothing, and gemstones.
+
+**Technologies:** Next.js, Prisma, PostgreSQL, React Query, Tailwind CSS, E-commerce architecture
+
+**Links:**
+- Live: https://sunzala.vercel.app
+- GitHub: https://github.com/iamjailan/sunzala-store.git
+
+### Marghai Job Portal (2025)
+A full-stack job portal featuring secure authentication, advanced job browsing, filtering, and real-time application submissions.
+
+**Technologies:** Next.js, NestJS, PostgreSQL, Tailwind CSS, React Query
+
+**Links:**
+- Live: https://marghai.vercel.app/
+- GitHub: https://github.com/iamjailan/marghai-jobs-landing
+
+### Wadan Real Estate (2023 – 2024)
+A real estate web application built with the MERN stack, including user authentication and property listing features.
+
+**Technologies:** React, Express.js, MongoDB, Tailwind CSS, Node.js
+
+**Links:**
+- Live: https://wadan-estate.onrender.com/
+- GitHub: https://github.com/iamjailan/mern-estate-
+
+### Chatak Weather (2023)
+A multilingual weather application supporting multiple languages and built with the OpenWeather API.
+
+**Technologies:** React, JavaScript, OpenWeather API, Tailwind CSS, React Router
+
+**Links:**
+- Live: https://weather-af.netlify.app/
+- GitHub: https://github.com/iamjailan/weather
+
+### Singar Store (2023)
+An e-commerce application built with React and Tailwind CSS, using Firebase for backend storage and real-time features.
+
+**Technologies:** React, React Router, Redux, Tailwind CSS, Firebase
+
+**Links:**
+- Live: https://singar.netlify.app/
+- GitHub: https://github.com/iamjailan/singar-store
+
+---
+
+## Personal Interests & Values
+
+- Strong passion for clean problem-solving through technology
+- Enjoys continuous learning and exploring new tools and methodologies
+- Deep interest in AI systems, machine learning infrastructure, and scalable cloud architecture
+- Currently studying history and philosophy in personal time
+- Learning to play the guitar
+- Enjoys video games, movies, and spending time with cats (self-described "cat person")
+
+---
+
+## What I'm Looking For
+
+I am actively seeking opportunities in:
+
+- Full-Stack Development
+- Backend Engineering (Node.js / NestJS / Python)
+- Frontend Development (React / Next.js)
+- DevOps & Cloud Infrastructure
+- Database Design & Engineering
+
+I am comfortable taking on combined roles (e.g., Full-Stack + DevOps, Backend + AI infrastructure, etc.).
+
+I am open to:
+- Full-time positions
+- Freelance / contract work
+- Remote, hybrid, or on-site roles
+
+---
+
+## Contact & Online Presence
+
+- **Email:** ahmadjailan2012@gmail.com
+- **Phone:** +93 780 575 336
+- **LinkedIn:** https://www.linkedin.com/in/iamjailan/
+- **GitHub:** https://github.com/iamjailan
+- **Portfolio:** https://iamjailan.vercel.app/
+- **CV (2026):** https://iamjailan.vercel.app/Jailan-Samun-CV-2026.pdf
+
+---
+
+## Notes for AI Agents
+
+- This document contains the most comprehensive and up-to-date information about Jailan Samun.
+- For a shorter version, refer to `/llms.txt`.
+- All project links and GitHub repositories are current as of 2026.
+- Jailan is comfortable communicating in English and is experienced working with distributed international teams.
+
+Last updated: 2026

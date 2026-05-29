@@ -19,28 +19,22 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL and
-          TypeScript
-        </span>
-        . I am also familiar with React Query, React Redux, TypeORM and Prisma.
-        I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        software developer.
+        Full Stack Developer with over 5 years of experience building and
+        scaling production web and mobile applications, leading backend teams,
+        and deploying AI infrastructure on Azure and Google Cloud. I specialize
+        in React, Next.js, Node.js, and modern backend systems, with a track
+        record of delivering real products across startups and established
+        companies.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my cat. I am a cat
-        person. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        My favorite part of programming is solving complex problems end-to-end.
+        My core stack is{" "}
+        <span className="font-medium">
+          React, Next.js, Node.js, TypeScript, PostgreSQL, and Prisma
+        </span>
+        . I am also experienced with NestJS, React Query, Redux, and DevOps
+        practices.
       </p>
     </motion.section>
   );

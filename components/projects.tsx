@@ -12,12 +12,21 @@ export default function Projects() {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My projects</SectionHeading>
-      <div>
-        {projectsData.map((project, index) => (
-          <React.Fragment key={index}>
-            <Project {...project} />
-          </React.Fragment>
-        ))}
+      <div className="max-w-[42rem] mx-auto">
+        <p className="mb-8 text-gray-700 dark:text-white/70">
+          My most recent personal project is Sunzala Afghan Store. You can click
+          on any project card to view the live demo or explore the source code on
+          GitHub. Please note that many of these projects are from earlier stages
+          of my career, as the majority of my professional time has been spent
+          building production applications for companies.
+        </p>
+        <div>
+          {projectsData.map((project, index) => (
+            <React.Fragment key={index}>
+              <Project {...project} />
+            </React.Fragment>
+          ))}
+        </div>
       </div>
     </section>
   );

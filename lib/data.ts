@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF – MCCO.af",
     description:
-      "Served as a Full-Stack Developer at MCCO, architecting and launching the company website using Next.js, Tailwind CSS, and MongoDB to deliver a modern and professional digital presence.",
+      "Built and launched MCCO's official website from the ground up as the sole Full-Stack Developer. Designed the full-stack architecture using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment, delivering a production-ready, professional digital presence for the company.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF – AseelApp",
     description:
-      "Joined AseelApp as a Backend Developer, building APIs and collaborating with frontend developers and UI/UX designers. Transitioned to mobile development, working on the Aseel Atalan app using React Native. Later moved to web frontend, building and contributing to the Aseel frontend alongside the team.",
+      "Progressed through three distinct roles at AseelApp within one year: started as Backend Developer building core APIs while collaborating with frontend and UI/UX teams, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 – 2024",
   },
@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote – blissio.ai",
     description:
-      "Joined blissio.ai as a Backend Developer, managing the backend team and building APIs for the blissio.ai app. Deployed and managed AI models on Azure and Google Cloud, overseeing CI/CD pipelines and deployments across Azure, Google Cloud, and Digital Ocean while handling all DevOps operations. Later worked on the app frontend using React Native.",
+      "Led the backend team at blissio.ai, architecting and shipping production APIs. Managed full application and API deployments for the entire platform across Azure, Google Cloud, and Digital Ocean using Docker. Also deployed and maintained AI models on Azure and Google Cloud. Owned end-to-end DevOps responsibilities, including CI/CD pipelines. Later contributed to the React Native mobile frontend.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 – 2026",
   },
@@ -64,15 +64,15 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Remote – Profitwave360 LLC",
     description:
-      "Currently working as a Software Engineer at Profitwave360 LLC, improving the organization's websites, optimizing SEO, enhancing web performance, and delivering ongoing frontend and backend improvements.",
+      "Driving website modernization, SEO optimization, and performance improvements as a Software Engineer at Profitwave360 LLC. Delivering ongoing frontend and backend enhancements that directly impact the organization's online presence and user experience.",
     icon: React.createElement(CgWorkAlt),
     date: "2026 – Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Kabul, AF / Remote",
+    title: "Open to Opportunities",
+    location: "Remote & On-site",
     description:
-      "Currently working as a Full-Stack Developer and open to freelance and full-time opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles (including combinations of these areas). Tech stack includes React, Next.js, Node.js, TypeScript, Express.js, Tailwind CSS, Prisma, PostgreSQL, and MongoDB.",
+      "Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles. Open to both remote and on-site positions worldwide.",
     icon: React.createElement(FaReact),
     date: "Present",
   },
@@ -161,7 +161,7 @@ export const skillsData = [
   "On-Page SEO",
   "Web Performance",
   "Framer Motion",
-  "Learning Docker",
+  "Docker",
   "DevOps",
   "Azure",
   "CI/CD",

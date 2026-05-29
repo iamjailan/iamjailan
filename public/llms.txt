@@ -1,0 +1,110 @@
+# Jailan Samun
+
+> Full Stack Software Developer with 5+ years of experience building web and mobile applications, scalable APIs, and cloud infrastructure.
+
+## About
+
+Full Stack Developer with over 5 years of experience building and scaling production web and mobile applications, leading backend teams, and deploying AI infrastructure on Azure and Google Cloud. Specializes in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
+
+My favorite part of programming is solving complex problems end-to-end. Core stack includes React, Next.js, Node.js, TypeScript, PostgreSQL, and Prisma. Also experienced with NestJS, React Query, Redux, and DevOps practices.
+
+Currently open to full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles.
+
+## Skills
+
+**Frontend:**
+- React, Next.js, TypeScript, JavaScript
+- Tailwind CSS, Redux, React Query, Framer Motion
+- React Native, Responsive UI Design
+
+**Backend & APIs:**
+- Node.js, Express.js, NestJS
+- Python, REST APIs, WebSockets
+- Authentication & Authorization
+
+**Databases:**
+- PostgreSQL, MongoDB, Prisma, TypeORM, Firebase
+
+**Cloud & DevOps:**
+- Azure, Google Cloud, Digital Ocean
+- Docker, CI/CD Pipelines
+- DevOps operations and deployment management
+
+**Other:**
+- Technical SEO, Web Performance
+- Git & GitHub
+- MedusaJS (e-commerce)
+
+## Experience
+
+**Profitwave360 LLC** (2026 – Present)
+- Software Engineer (Remote)
+- Driving website modernization, SEO optimization, and performance improvements. Delivering ongoing frontend and backend enhancements that directly impact the organization's online presence.
+
+**blissio.ai** (2024 – 2026)
+- Backend Developer → Team Lead
+- Led the backend team and architected production APIs.
+- Managed full application and API deployments for the entire platform across Azure, Google Cloud, and Digital Ocean using Docker.
+- Deployed and maintained AI models on Azure and Google Cloud.
+- Owned end-to-end DevOps including CI/CD pipelines and infrastructure.
+- Later contributed to the React Native mobile frontend.
+
+**AseelApp** (2023 – 2024)
+- Progressed through three distinct roles within one year: started as Backend Developer building core APIs, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform.
+
+**MCCO.af** (2023)
+- Full-Stack Developer
+- Built and launched the company website from the ground up using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment.
+
+**Open to Opportunities** (Present)
+- Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles.
+- Open to both remote and on-site positions worldwide.
+
+## Projects
+
+My most recent personal project is Sunzala Afghan Store. You can click on any project to view the live demo or explore the source code on GitHub. Please note that many of these projects are from earlier stages of my career, as the majority of my professional time has been spent building production applications for companies.
+
+**Sunzala Afghan Store** (2026)
+- Afghan marketplace for authentic crafts, spices, clothing, and gemstones.
+- Tech: Next.js, Prisma, PostgreSQL, React Query, Tailwind CSS, E-commerce
+- https://sunzala.vercel.app
+- https://github.com/iamjailan/sunzala-store.git
+
+**Marghai Job Portal** (2025)
+- Full-stack job portal with secure authentication, job browsing, filtering, and real-time applications.
+- Tech: Next.js, NestJS, PostgreSQL, Tailwind, React Query
+- https://marghai.vercel.app/
+- https://github.com/iamjailan/marghai-jobs-landing
+
+**Wadan Real Estate** (2023 – 2024)
+- Real estate web application built with the MERN stack.
+- Tech: React, Express, MongoDB, Tailwind, Node.js
+- https://wadan-estate.onrender.com/
+- https://github.com/iamjailan/mern-estate-
+
+**Chatak Weather** (2023)
+- Multilingual weather application using OpenWeather API.
+- Tech: React, JavaScript, OpenWeather API, Tailwind, React Router
+- https://weather-af.netlify.app/
+- https://github.com/iamjailan/weather
+
+**Singar Store** (2023)
+- E-commerce application built with React and Tailwind.
+- Tech: React, React Router, Redux, Tailwind, Firebase
+- https://singar.netlify.app/
+- https://github.com/iamjailan/singar-store
+
+## Contact
+
+- **Email:** ahmadjailan2012@gmail.com
+- **Phone:** +93 780 575 336
+- **LinkedIn:** https://www.linkedin.com/in/iamjailan/
+- **GitHub:** https://github.com/iamjailan
+- **Portfolio:** https://iamjailan.vercel.app/
+- **CV:** https://iamjailan.vercel.app/Jailan-Samun-CV-2026.pdf
+
+## Additional Information
+
+- Open to remote, hybrid, and on-site opportunities.
+- Comfortable working with international teams.
+- Strong interest in AI infrastructure and cloud-native development.
