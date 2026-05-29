@@ -64,12 +64,10 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Jailan Samun.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience in{" "}
-        <span className="font-bold">backend</span>,{" "}
-        <span className="font-bold">DevOps</span>, and{" "}
-        <span className="font-bold">AI</span>. I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">learning AI engineering</span>.
+        <span className="font-bold">5 years</span> of experience building{" "}
+        <span className="font-bold">scalable backend systems</span> and{" "}
+        <span className="font-bold">deploying AI infrastructure</span> on Azure and Google Cloud. My focus is{" "}
+        <span className="underline">AI infrastructure and cloud-native development</span>.
       </motion.h1>
 
       <motion.div

@@ -37,19 +37,19 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/profile.jpg",
-        width: 192,
-        height: 192,
-        alt: "Jailan Samun",
+        width: 1200,
+        height: 630,
+        alt: "Jailan Samun - Full Stack Developer",
       },
     ],
     locale: "en_US",
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Jailan Samun | Full Stack Developer",
     description:
-      "Full-stack developer with 5 years of experience in backend, DevOps, and AI.",
+      "Full-stack developer with 5 years of experience building scalable backend systems and deploying AI infrastructure on Azure and Google Cloud.",
     images: ["/profile.jpg"],
   },
   robots: {

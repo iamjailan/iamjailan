@@ -18,9 +18,7 @@ He is currently based in Kabul, Afghanistan, and is open to remote, hybrid, and 
 
 ## About Me
 
-Full Stack Developer with over 5 years of experience building and scaling production web and mobile applications, leading backend teams, and deploying AI infrastructure on Azure and Google Cloud. I specialize in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
-
-My favorite part of programming is solving complex problems end-to-end. My core stack is React, Next.js, Node.js, TypeScript, PostgreSQL, and Prisma. I am also experienced with NestJS, React Query, Redux, and DevOps practices.
+Full Stack Developer with over 5 years of experience building scalable backend systems and deploying AI infrastructure on Azure and Google Cloud. My focus is AI infrastructure and cloud-native development. I specialize in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
 
 ---
 
@@ -59,49 +57,50 @@ Actively seeking full-time and freelance opportunities in Full-Stack, Backend, F
 
 ## Technical Skills
 
-### Frontend Development
-- React.js
-- Next.js (App Router & Pages Router)
+### Programming Languages
+- JavaScript
 - TypeScript
-- JavaScript (ES6+)
-- Tailwind CSS
-- Redux / React Redux
-- React Query (TanStack Query)
-- Framer Motion
-- React Native (Mobile Development)
-- Responsive and accessible UI design
-
-### Backend & API Development
-- Node.js
-- Express.js
-- NestJS
-- RESTful API design
-- WebSockets
-- Authentication & Authorization systems
 - Python
+
+### Frameworks & Libraries
+- React
+- Next.js
+- Node.js
+- Nest.js
+- Express
+- REST APIs
+- GraphQL
+- Framer Motion
+- Redux
+- React Query
 
 ### Databases & ORMs
 - PostgreSQL
 - MongoDB
 - Prisma
 - TypeORM
-- Firebase (Realtime Database & Firestore)
+- Firebase
 
-### Cloud, DevOps & Infrastructure
-- Microsoft Azure (App Services, Functions, AI/ML services)
-- Google Cloud Platform (GCP)
-- Digital Ocean
+### DevOps & Cloud
 - Docker
-- CI/CD Pipelines (Azure DevOps, GitHub Actions, etc.)
-- Deployment automation and monitoring
-- Infrastructure as Code awareness
+- Azure
+- Google Cloud
+- Digital Ocean
+- CI/CD
+- GitHub Actions
 
-### Other Technical Skills
-- Technical SEO & On-Page SEO
-- Web Performance Optimization
-- Git & GitHub workflows
-- MedusaJS (Headless E-commerce)
-- E-commerce platform development
+### Tools & Other
+- Git
+- Tailwind
+- MedusaJS
+- Web Performance
+- SEO (Technical & On-Page)
+
+### Methodologies
+- Agile / Scrum
+
+### Languages
+- English: C1 (business fluent)
 
 ---
 

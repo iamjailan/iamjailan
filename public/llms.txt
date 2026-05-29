@@ -4,36 +4,56 @@
 
 ## About
 
-Full Stack Developer with over 5 years of experience building and scaling production web and mobile applications, leading backend teams, and deploying AI infrastructure on Azure and Google Cloud. Specializes in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
-
-My favorite part of programming is solving complex problems end-to-end. Core stack includes React, Next.js, Node.js, TypeScript, PostgreSQL, and Prisma. Also experienced with NestJS, React Query, Redux, and DevOps practices.
+Full Stack Developer with over 5 years of experience building scalable backend systems and deploying AI infrastructure on Azure and Google Cloud. My focus is AI infrastructure and cloud-native development. Specializes in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
 
 Currently open to full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles.
 
 ## Skills
 
-**Frontend:**
-- React, Next.js, TypeScript, JavaScript
-- Tailwind CSS, Redux, React Query, Framer Motion
-- React Native, Responsive UI Design
+**Programming Languages:**
+- JavaScript
+- TypeScript
+- Python
 
-**Backend & APIs:**
-- Node.js, Express.js, NestJS
-- Python, REST APIs, WebSockets
-- Authentication & Authorization
+**Frameworks & Libraries:**
+- React
+- Next.js
+- Node.js
+- Nest.js
+- Express
+- REST APIs
+- GraphQL
+- Framer Motion
+- Redux
+- React Query
 
-**Databases:**
-- PostgreSQL, MongoDB, Prisma, TypeORM, Firebase
+**Databases & ORMs:**
+- PostgreSQL
+- MongoDB
+- Prisma
+- TypeORM
+- Firebase
 
-**Cloud & DevOps:**
-- Azure, Google Cloud, Digital Ocean
-- Docker, CI/CD Pipelines
-- DevOps operations and deployment management
+**DevOps & Cloud:**
+- Docker
+- Azure
+- Google Cloud
+- Digital Ocean
+- CI/CD
+- GitHub Actions
 
-**Other:**
-- Technical SEO, Web Performance
-- Git & GitHub
-- MedusaJS (e-commerce)
+**Tools & Other:**
+- Git
+- Tailwind
+- MedusaJS
+- Web Performance
+- SEO (Technical & On-Page)
+
+**Methodologies:**
+- Agile / Scrum
+
+**Languages:**
+- English: C1 (business fluent)
 
 ## Experience
 

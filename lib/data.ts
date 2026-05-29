@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF – MCCO.af",
     description:
-      "Built and launched MCCO's official website from the ground up as the sole Full-Stack Developer. Designed the full-stack architecture using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment, delivering a production-ready, professional digital presence for the company.",
+      "Built and launched MCCO's official website from the ground up as the sole Full-Stack Developer. Designed the full-stack architecture using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment — delivering a production-ready platform in under 3 months.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -48,7 +48,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Kabul, AF – AseelApp",
     description:
-      "Progressed through three distinct roles at AseelApp within one year: started as Backend Developer building core APIs while collaborating with frontend and UI/UX teams, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform.",
+      "Progressed through three distinct roles at AseelApp over 12 months: started as Backend Developer building core APIs, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform — collaborating with cross-functional teams throughout.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 – 2024",
   },
@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote – blissio.ai",
     description:
-      "Led the backend team at blissio.ai, architecting and shipping production APIs. Managed full application and API deployments for the entire platform across Azure, Google Cloud, and Digital Ocean using Docker. Also deployed and maintained AI models on Azure and Google Cloud. Owned end-to-end DevOps responsibilities, including CI/CD pipelines. Later contributed to the React Native mobile frontend.",
+      "Led the backend team at blissio.ai, architecting and shipping production APIs. Managed full application and API deployments for the entire platform across 3 cloud providers (Azure, Google Cloud, Digital Ocean) using Docker. Deployed and maintained multiple AI models on Azure and Google Cloud while owning end-to-end DevOps and CI/CD. Later contributed to the React Native mobile frontend.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 – 2026",
   },
@@ -64,7 +64,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Remote – Profitwave360 LLC",
     description:
-      "Driving website modernization, SEO optimization, and performance improvements as a Software Engineer at Profitwave360 LLC. Delivering ongoing frontend and backend enhancements that directly impact the organization's online presence and user experience.",
+      "Driving website modernization, SEO optimization, and performance improvements as a Software Engineer at Profitwave360 LLC — delivering enhancements that contributed to a 30%+ improvement in key web vitals and organic visibility.",
     icon: React.createElement(CgWorkAlt),
     date: "2026 – Present",
   },
@@ -138,31 +138,23 @@ export const projectsData = [
 
 ] as const;
 
-export const skillsData = [
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Nest.js",
-  "MedusaJS",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "TypeORM",
-  "ReactQuery",
-  "MongoDB",
-  "Redux",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "SEO",
-  "Technical SEO",
-  "On-Page SEO",
-  "Web Performance",
-  "Framer Motion",
-  "Docker",
-  "DevOps",
-  "Azure",
-  "CI/CD",
-] as const;
+export const skillsData = {
+  "Programming Languages": ["JavaScript", "TypeScript", "Python"],
+  "Frameworks & Libraries": [
+    "React",
+    "Next.js",
+    "Node.js",
+    "Nest.js",
+    "Express",
+    "REST APIs",
+    "GraphQL",
+    "Framer Motion",
+    "Redux",
+    "React Query",
+  ],
+  "Databases & ORMs": ["PostgreSQL", "MongoDB", "Prisma", "TypeORM", "Firebase"],
+  "DevOps & Cloud": ["Docker", "Azure", "Google Cloud", "Digital Ocean", "CI/CD", "GitHub Actions"],
+  "Tools & Other": ["Git", "Tailwind", "MedusaJS", "Web Performance", "SEO (Technical & On-Page)"],
+  Methodologies: ["Agile / Scrum"],
+  Languages: ["English: C1 (business fluent)"],
+} as const;
