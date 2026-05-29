@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://me.sleepany.com"),
+  applicationName: "Jailan Samun",
   title: "Jailan Samun | Full Stack Developer",
   description:
     "Jailan Samun is a full-stack developer with 5 years of experience in backend, DevOps, and AI. Specializing in React, Next.js, Node.js, NestJS, and TypeScript.",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     description:
       "Full-stack developer with 5 years of experience in backend, DevOps, and AI. Building modern web applications with React, Next.js, and Node.js.",
     url: "https://me.sleepany.com",
-    siteName: "Jailan Samun Portfolio",
+    siteName: "Jailan Samun",
     images: [
       {
         url: "/profile.jpg",
@@ -116,7 +117,10 @@ export default function RootLayout({
                   "@id": "https://me.sleepany.com/#website",
                   url: "https://me.sleepany.com/",
                   name: "Jailan Samun",
-                  alternateName: "Jailan Samun | Full Stack Developer",
+                  alternateName: [
+                    "Jailan Samun",
+                    "Jailan Samun | Full Stack Developer",
+                  ],
                   inLanguage: "en",
                 },
                 {
