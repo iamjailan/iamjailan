@@ -15,11 +15,20 @@ import { Tailwind } from "@react-email/tailwind";
 type ContactFormEmailProps = {
   message: string;
   senderEmail: string;
+  submissionDetails: {
+    ipAddress: string;
+    browserInfo: string;
+    userAgent: string;
+    userTimeZone: string;
+    userLocalTime: string;
+    serverReceivedAt: string;
+  };
 };
 
 export default function ContactFormEmail({
   message,
   senderEmail,
+  submissionDetails,
 }: ContactFormEmailProps) {
   return (
     <Html>
@@ -35,6 +44,18 @@ export default function ContactFormEmail({
               <Text>{message}</Text>
               <Hr />
               <Text>The sender's email is: {senderEmail}</Text>
+              <Hr />
+              <Heading as="h2" className="text-lg leading-tight">
+                Submission details
+              </Heading>
+              <Text>IP address: {submissionDetails.ipAddress}</Text>
+              <Text>Browser: {submissionDetails.browserInfo}</Text>
+              <Text>User agent: {submissionDetails.userAgent}</Text>
+              <Text>Local time zone: {submissionDetails.userTimeZone}</Text>
+              <Text>Local send time: {submissionDetails.userLocalTime}</Text>
+              <Text>
+                Server received time: {submissionDetails.serverReceivedAt}
+              </Text>
             </Section>
           </Container>
         </Body>
