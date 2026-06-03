@@ -35,7 +35,7 @@ export default function Intro() {
               alt="Jailan Samun"
               width="192"
               height="192"
-              quality="95"
+              quality="75"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
@@ -66,8 +66,12 @@ export default function Intro() {
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">5 years</span> of experience building{" "}
         <span className="font-bold">scalable backend systems</span> and{" "}
-        <span className="font-bold">deploying AI infrastructure</span> on Azure and Google Cloud. My focus is{" "}
-        <span className="underline">AI infrastructure and cloud-native development</span>.
+        <span className="font-bold">deploying AI infrastructure</span> on Azure
+        and Google Cloud. My focus is{" "}
+        <span className="underline">
+          AI infrastructure and cloud-native development
+        </span>
+        .
       </motion.h1>
 
       <motion.div

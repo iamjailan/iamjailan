@@ -43,7 +43,7 @@ export default function Project({
           <Image
             src={imageUrl}
             alt="Project I worked on"
-            quality={95}
+            quality={75}
             className="w-full h-48 object-cover"
           />
         </Link>
@@ -91,7 +91,7 @@ export default function Project({
           <Image
             src={imageUrl}
             alt="Project I worked on"
-            quality={95}
+            quality={75}
             className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]

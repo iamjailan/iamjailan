@@ -83,7 +83,14 @@ export const projectsData = [
     title: "Sunzala Afghan Store",
     description:
       "An Afghan marketplace connecting buyers with authentic crafts, spices, clothing, and gemstones.",
-    tags: ["Next.js", "Prisma", "PostgreSQL", "React Query", "Tailwind", "E-commerce"],
+    tags: [
+      "Next.js",
+      "Prisma",
+      "PostgreSQL",
+      "React Query",
+      "Tailwind",
+      "E-commerce",
+    ],
     imageUrl: sunzala,
     linkUrl: "https://sunzala.vercel.app",
     githubUrl: "https://github.com/iamjailan/sunzala-store.git",
@@ -135,7 +142,6 @@ export const projectsData = [
     githubUrl: "https://github.com/iamjailan/singar-store",
     year: "2023",
   },
-
 ] as const;
 
 export const skillsData = {
@@ -151,10 +157,30 @@ export const skillsData = {
     "Framer Motion",
     "Redux",
     "React Query",
+    "FastAPI",
   ],
-  "Databases & ORMs": ["PostgreSQL", "MongoDB", "Prisma", "TypeORM", "Firebase"],
-  "DevOps & Cloud": ["Docker", "Azure", "Google Cloud", "Digital Ocean", "CI/CD", "GitHub Actions"],
-  "Tools & Other": ["Git", "Tailwind", "MedusaJS", "Web Performance", "SEO (Technical & On-Page)"],
+  "Databases & ORMs": [
+    "PostgreSQL",
+    "MongoDB",
+    "Prisma",
+    "TypeORM",
+    "Firebase",
+  ],
+  "DevOps & Cloud": [
+    "Docker",
+    "Azure",
+    "Google Cloud",
+    "Digital Ocean",
+    "CI/CD",
+    "GitHub Actions",
+  ],
+  "Tools & Other": [
+    "Git",
+    "Tailwind",
+    "MedusaJS",
+    "Web Performance",
+    "SEO (Technical & On-Page)",
+  ],
   Methodologies: ["Agile / Scrum"],
   Languages: ["English: C1 (business fluent)"],
 } as const;
