@@ -61,4 +61,3 @@ Full Stack Software Developer with 5+ years of experience building web and mobil
 ## 📫 Contact
 
 * Email: [ahmadjailan2012@gmail.com](mailto:ahmadjailan2012@gmail.com)
-* Phone: +93 780 575 336
