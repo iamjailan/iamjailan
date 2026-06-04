@@ -44,6 +44,8 @@ export default function Project({
             src={imageUrl}
             alt="Project I worked on"
             quality={75}
+            sizes="100vw"
+            placeholder="blur"
             className="w-full h-48 object-cover"
           />
         </Link>
@@ -92,6 +94,8 @@ export default function Project({
             src={imageUrl}
             alt="Project I worked on"
             quality={75}
+            sizes="452px"
+            placeholder="blur"
             className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]

@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     siteName: "Jailan Samun",
     images: [
       {
-        url: "/profile.jpg",
-        width: 1200,
-        height: 630,
+        url: "/profile-avatar.webp",
+        width: 384,
+        height: 384,
         alt: "Jailan Samun - Full Stack Developer",
       },
     ],
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Jailan Samun | Full Stack Developer",
     description:
       "Full-stack developer with 5 years of experience building scalable backend systems and deploying AI infrastructure on Azure and Google Cloud.",
-    images: ["/profile.jpg"],
+    images: ["/profile-avatar.webp"],
   },
   robots: {
     index: true,
@@ -104,8 +104,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{const theme=localStorage.getItem("theme");const prefersDark=window.matchMedia("(prefers-color-scheme: dark)").matches;if(theme==="dark"||(!theme&&prefersDark)){document.documentElement.classList.add("dark")}}catch{}`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -140,7 +145,7 @@ export default function RootLayout({
                   "@id": "https://me.sleepany.com/#person",
                   name: "Jailan Samun",
                   url: "https://me.sleepany.com/",
-                  image: "https://me.sleepany.com/profile.jpg",
+                  image: "https://me.sleepany.com/profile-avatar.webp",
                   jobTitle: "Full-Stack Developer",
                   worksFor: { "@id": "https://me.sleepany.com/#organization" },
                   sameAs: [

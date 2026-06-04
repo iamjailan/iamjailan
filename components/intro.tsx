@@ -1,8 +1,6 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
-import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
@@ -11,7 +9,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("Home");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -22,45 +20,29 @@ export default function Intro() {
     >
       <div className="flex items-center justify-center">
         <div className="relative">
-          <motion.div
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.2,
-            }}
-          >
-            <Image
-              src="/profile.jpg"
+          <div className="animate-scale-in">
+            <img
+              src="/profile-avatar.webp"
               alt="Jailan Samun"
-              width="192"
-              height="192"
-              quality="75"
-              priority={true}
+              width="96"
+              height="96"
+              fetchPriority="high"
+              decoding="async"
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
-          </motion.div>
+          </div>
 
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
+          <span
+            className="animate-scale-in absolute bottom-0 right-0 text-4xl"
+            style={{ animationDelay: "100ms" }}
           >
             👋
-          </motion.span>
+          </span>
         </div>
       </div>
 
-      <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
+      <h1
+        className="animate-rise mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
       >
         <span className="font-bold">Hello, I'm Jailan Samun.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
@@ -72,15 +54,11 @@ export default function Intro() {
           AI infrastructure and cloud-native development
         </span>
         .
-      </motion.h1>
+      </h1>
 
-      <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-          delay: 0.1,
-        }}
+      <div
+        className="animate-rise flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        style={{ animationDelay: "100ms" }}
       >
         <Link
           href="#contact"
@@ -118,7 +96,7 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-      </motion.div>
+      </div>
     </section>
   );
 }

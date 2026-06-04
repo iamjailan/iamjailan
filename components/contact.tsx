@@ -137,7 +137,7 @@ export default function Contact() {
       {turnstileSiteKey ? (
         <Script
           src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           onReady={() => setTurnstileLoaded(true)}
         />
       ) : null}
