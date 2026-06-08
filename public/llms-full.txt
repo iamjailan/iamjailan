@@ -8,17 +8,17 @@ This is the **full detailed version** of Jailan Samun's professional profile, in
 
 ## Summary
 
-Jailan Samun (also referred to as Ahmad Jailan) is a Full Stack Software Developer with over five years of experience building modern web applications, mobile apps, scalable backend systems, and cloud infrastructure.
+Jailan Samun (also referred to as Ahmad Jailan) is a Full Stack Software Developer with over five years of experience building modern web applications, mobile apps, scalable backend systems, and production-ready software.
 
-He has worked across multiple industries including e-commerce, job platforms, real estate, AI platforms, and local Afghan businesses. His career shows strong progression from full-stack web development into backend leadership, AI model deployment, DevOps, and cross-platform mobile development.
+He has worked across multiple industries including e-commerce, job platforms, real estate, AI platforms, and local Afghan businesses. His career shows strong progression across full-stack web development, backend leadership, frontend delivery, and cross-platform mobile development.
 
-He is currently based in Kabul, Afghanistan, and is open to remote, hybrid, and full-time opportunities worldwide, particularly in Full-Stack, Backend, Frontend, DevOps, and Database roles.
+He is currently based in Kabul, Afghanistan, and is open to remote, hybrid, and full-time opportunities worldwide, particularly in Full-Stack, Backend, Frontend, and Database roles.
 
 ---
 
 ## About Me
 
-Full Stack Developer with over 5 years of experience building scalable backend systems and deploying AI infrastructure on Azure and Google Cloud. My focus is AI infrastructure and cloud-native development. I specialize in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
+Full Stack Developer with over 5 years of experience building production web and mobile applications, scalable APIs, and responsive user experiences. I specialize in React, Next.js, Node.js, NestJS, and modern backend systems, with a track record of shipping real products across startups and established companies.
 
 ---
 
@@ -35,7 +35,7 @@ Driving website modernization, SEO optimization, and performance improvements as
 - Led the backend team and architected production APIs for the core application.
 - Managed full application and API deployments for the entire platform across Azure, Google Cloud, and Digital Ocean using Docker.
 - Deployed and maintained AI models on Azure and Google Cloud.
-- Owned end-to-end DevOps responsibilities, including CI/CD pipelines and infrastructure management.
+- Managed CI/CD pipelines and production deployment workflows.
 - Later contributed to the React Native mobile frontend.
 
 ### AseelApp
@@ -51,7 +51,7 @@ Built and launched MCCO's official website from the ground up as the sole Full-S
 ### Open to Opportunities
 **Present**
 
-Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles. Open to both remote and on-site positions worldwide.
+Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, and Database roles. Open to both remote and on-site positions worldwide.
 
 ---
 
@@ -81,7 +81,7 @@ Actively seeking full-time and freelance opportunities in Full-Stack, Backend, F
 - TypeORM
 - Firebase
 
-### DevOps & Cloud
+### Cloud & Deployment
 - Docker
 - Azure
 - Google Cloud
@@ -159,7 +159,7 @@ An e-commerce application built with React and Tailwind CSS, using Firebase for 
 
 - Strong passion for clean problem-solving through technology
 - Enjoys continuous learning and exploring new tools and methodologies
-- Deep interest in AI systems, machine learning infrastructure, and scalable cloud architecture
+- Deep interest in full-stack product development, scalable APIs, and practical AI-powered features
 - Currently studying history and philosophy in personal time
 - Learning to play the guitar
 - Enjoys video games, movies, and spending time with cats (self-described "cat person")
@@ -173,10 +173,9 @@ I am actively seeking opportunities in:
 - Full-Stack Development
 - Backend Engineering (Node.js / NestJS / Python)
 - Frontend Development (React / Next.js)
-- DevOps & Cloud Infrastructure
 - Database Design & Engineering
 
-I am comfortable taking on combined roles (e.g., Full-Stack + DevOps, Backend + AI infrastructure, etc.).
+I am comfortable taking on combined roles across frontend, backend, databases, and deployment workflows.
 
 I am open to:
 - Full-time positions

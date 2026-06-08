@@ -17,10 +17,10 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         Full Stack Developer with over 5 years of experience building and
-        scaling production web and mobile applications, leading backend teams,
-        and deploying AI infrastructure on Azure and Google Cloud. I specialize
-        in React, Next.js, Node.js, and modern backend systems, with a track
-        record of delivering real products across startups and established
+        scaling production web and mobile applications, designing APIs, and
+        delivering responsive frontend experiences. I specialize in React,
+        Next.js, Node.js, NestJS, and modern backend systems, with a track
+        record of shipping real products across startups and established
         companies.
       </p>
 
@@ -28,10 +28,10 @@ export default function About() {
         My favorite part of programming is solving complex problems end-to-end.
         My core stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, TypeScript, PostgreSQL, and Prisma
+          React, Next.js, Node.js, NestJS, TypeScript, PostgreSQL, and Prisma
         </span>
-        . I am also experienced with NestJS, React Query, Redux, and DevOps
-        practices.
+        . I am also experienced with React Query, Redux, Docker, and cloud
+        deployment workflows.
       </p>
     </section>
   );

@@ -1,12 +1,12 @@
 # Jailan Samun
 
-> Full Stack Software Developer with 5+ years of experience building web and mobile applications, scalable APIs, and cloud infrastructure.
+> Full Stack Software Developer with 5+ years of experience building web and mobile applications, scalable APIs, and production-ready software.
 
 ## About
 
-Full Stack Developer with over 5 years of experience building scalable backend systems and deploying AI infrastructure on Azure and Google Cloud. My focus is AI infrastructure and cloud-native development. Specializes in React, Next.js, Node.js, and modern backend systems, with a track record of delivering real products across startups and established companies.
+Full Stack Developer with over 5 years of experience building production web and mobile applications, scalable APIs, and responsive user experiences. Specializes in React, Next.js, Node.js, NestJS, and modern backend systems, with a track record of delivering real products across startups and established companies.
 
-Currently open to full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles.
+Currently open to full-time and freelance opportunities in Full-Stack, Backend, Frontend, and Database roles.
 
 ## Skills
 
@@ -34,7 +34,7 @@ Currently open to full-time and freelance opportunities in Full-Stack, Backend, 
 - TypeORM
 - Firebase
 
-**DevOps & Cloud:**
+**Cloud & Deployment:**
 - Docker
 - Azure
 - Google Cloud
@@ -66,7 +66,7 @@ Currently open to full-time and freelance opportunities in Full-Stack, Backend, 
 - Led the backend team and architected production APIs.
 - Managed full application and API deployments for the entire platform across Azure, Google Cloud, and Digital Ocean using Docker.
 - Deployed and maintained AI models on Azure and Google Cloud.
-- Owned end-to-end DevOps including CI/CD pipelines and infrastructure.
+- Managed CI/CD pipelines and production deployment workflows.
 - Later contributed to the React Native mobile frontend.
 
 **AseelApp** (2023 – 2024)
@@ -77,7 +77,7 @@ Currently open to full-time and freelance opportunities in Full-Stack, Backend, 
 - Built and launched the company website from the ground up using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment.
 
 **Open to Opportunities** (Present)
-- Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles.
+- Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, and Database roles.
 - Open to both remote and on-site positions worldwide.
 
 ## Projects
@@ -127,4 +127,4 @@ My most recent personal project is Sunzala Afghan Store. You can click on any pr
 
 - Open to remote, hybrid, and on-site opportunities.
 - Comfortable working with international teams.
-- Strong interest in AI infrastructure and cloud-native development.
+- Strong interest in full-stack product development, scalable APIs, and practical AI-powered features.

@@ -29,7 +29,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote – blissio.ai",
     description:
-      "Led the backend team at blissio.ai, architecting and shipping production APIs. Managed full application and API deployments for the entire platform across 3 cloud providers (Azure, Google Cloud, Digital Ocean) using Docker. Deployed and maintained multiple AI models on Azure and Google Cloud while owning end-to-end DevOps and CI/CD. Later contributed to the React Native mobile frontend.",
+      "Led the backend team at blissio.ai, architecting and shipping production APIs for the core platform. Managed application and API deployments across Azure, Google Cloud, and Digital Ocean using Docker, supported AI model integrations, and later contributed to the React Native mobile frontend.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 – 2026",
   },
@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Open to Opportunities",
     location: "Remote & On-site",
     description:
-      "Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, DevOps, and Database roles. Open to both remote and on-site positions worldwide.",
+      "Actively seeking full-time and freelance opportunities in Full-Stack, Backend, Frontend, and Database roles. Open to both remote and on-site positions worldwide.",
     icon: React.createElement(FaReact),
     date: "Present",
   },
@@ -139,7 +139,7 @@ export const skillsData = {
     "TypeORM",
     "Firebase",
   ],
-  "DevOps & Cloud": [
+  "Cloud & Deployment": [
     "Docker",
     "Azure",
     "Google Cloud",

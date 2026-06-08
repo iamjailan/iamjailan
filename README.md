@@ -1,14 +1,14 @@
 # Hi, I'm Jailan Samun 👋
 
-Full Stack Software Developer with 5+ years of experience building web and mobile applications, scalable APIs, and cloud-based systems.
+Full Stack Software Developer with 5+ years of experience building web and mobile applications, scalable APIs, and production-ready software.
 
 ## 🚀 About Me
 
 * 💻 Full Stack Developer focused on modern frontend and backend technologies
 * 🎨 Experienced in building responsive, user-friendly, and high-performance UI/UX
-* ⚡ Skilled in API development, cloud deployment, and scalable architectures
-* ☁️ Working with cloud platforms like Azure and Google Cloud
-* 🤖 Interested in AI systems, model deployment, and scalable infrastructure
+* ⚡ Skilled in API development, database design, and scalable application architecture
+* ☁️ Comfortable deploying full-stack applications with Docker and cloud platforms
+* 🤖 Interested in AI-powered products and practical software automation
 * 🌍 Based in Kabul, Afghanistan and working with local & remote teams
 
 ## 🛠 Tech Stack
@@ -32,7 +32,7 @@ Full Stack Software Developer with 5+ years of experience building web and mobil
 * Authentication & Authorization
 * WebSockets
 
-### Database & Cloud
+### Database & Deployment
 
 * MongoDB
 * PostgreSQL
@@ -49,7 +49,6 @@ Full Stack Software Developer with 5+ years of experience building web and mobil
 * REST APIs
 * AI-powered Applications
 * Admin Dashboards
-* Cloud Infrastructure
 * Scalable Backend Systems
 * Modern Frontend Interfaces
 

@@ -47,11 +47,12 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Jailan Samun.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">5 years</span> of experience building{" "}
-        <span className="font-bold">scalable backend systems</span> and{" "}
-        <span className="font-bold">deploying AI infrastructure</span> on Azure
-        and Google Cloud. My focus is{" "}
+        <span className="font-bold">modern web applications</span>,{" "}
+        <span className="font-bold">scalable APIs</span>, and polished user
+        experiences. My focus is{" "}
         <span className="underline">
-          AI infrastructure and cloud-native development
+          end-to-end product development with React, Next.js, Node.js, and
+          NestJS
         </span>
         .
       </h1>

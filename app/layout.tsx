@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   applicationName: "Jailan Samun",
   title: "Jailan Samun | Full Stack Developer",
   description:
-    "Jailan Samun is a full-stack developer with 5 years of experience in backend, DevOps, and AI. Specializing in React, Next.js, Node.js, NestJS, and TypeScript.",
+    "Jailan Samun is a full-stack developer with 5 years of experience building modern web applications, scalable APIs, and production-ready software with React, Next.js, Node.js, NestJS, and TypeScript.",
   manifest: "/site.webmanifest",
   icons: {
     icon: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jailan Samun | Full Stack Developer",
     description:
-      "Full-stack developer with 5 years of experience in backend, DevOps, and AI. Building modern web applications with React, Next.js, and Node.js.",
+      "Full-stack developer with 5 years of experience building modern web applications, scalable APIs, and production-ready software with React, Next.js, Node.js, and NestJS.",
     url: "https://sleepany.com",
     siteName: "Jailan Samun",
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jailan Samun | Full Stack Developer",
     description:
-      "Full-stack developer with 5 years of experience building scalable backend systems and deploying AI infrastructure on Azure and Google Cloud.",
+      "Full-stack developer with 5 years of experience building modern web applications, scalable APIs, and polished frontend experiences.",
     images: ["/profile-avatar.webp"],
   },
   robots: {
@@ -88,9 +88,8 @@ export const metadata: Metadata = {
     "Full-Stack Web Development",
     "Backend Architecture",
     "API Development",
-    "DevOps",
     "Azure",
-    "AI Engineering",
+    "Cloud Deployment",
   ],
 };
 
@@ -161,8 +160,8 @@ export default function RootLayout({
                     "PostgreSQL",
                     "MongoDB",
                     "Docker",
-                    "DevOps",
-                    "AI Engineering",
+                    "Cloud Deployment",
+                    "Full-Stack Web Development",
                   ],
                 },
               ],
