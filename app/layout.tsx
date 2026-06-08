@@ -12,7 +12,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://me.sleepany.com"),
+  metadataBase: new URL("https://sleepany.com"),
   applicationName: "Jailan Samun",
   title: "Jailan Samun | Full Stack Developer",
   description:
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Jailan Samun | Full Stack Developer",
     description:
       "Full-stack developer with 5 years of experience in backend, DevOps, and AI. Building modern web applications with React, Next.js, and Node.js.",
-    url: "https://me.sleepany.com",
+    url: "https://sleepany.com",
     siteName: "Jailan Samun",
     images: [
       {
@@ -119,8 +119,8 @@ export default function RootLayout({
               "@graph": [
                 {
                   "@type": "WebSite",
-                  "@id": "https://me.sleepany.com/#website",
-                  url: "https://me.sleepany.com/",
+                  "@id": "https://sleepany.com/#website",
+                  url: "https://sleepany.com/",
                   name: "Jailan Samun",
                   alternateName: [
                     "Jailan Samun",
@@ -130,24 +130,24 @@ export default function RootLayout({
                 },
                 {
                   "@type": "Organization",
-                  "@id": "https://me.sleepany.com/#organization",
+                  "@id": "https://sleepany.com/#organization",
                   name: "Jailan Samun",
-                  url: "https://me.sleepany.com/",
+                  url: "https://sleepany.com/",
                   logo: {
                     "@type": "ImageObject",
-                    url: "https://me.sleepany.com/android-chrome-512x512.png",
+                    url: "https://sleepany.com/android-chrome-512x512.png",
                     width: 512,
                     height: 512,
                   },
                 },
                 {
                   "@type": "Person",
-                  "@id": "https://me.sleepany.com/#person",
+                  "@id": "https://sleepany.com/#person",
                   name: "Jailan Samun",
-                  url: "https://me.sleepany.com/",
-                  image: "https://me.sleepany.com/profile-avatar.webp",
+                  url: "https://sleepany.com/",
+                  image: "https://sleepany.com/profile-avatar.webp",
                   jobTitle: "Full-Stack Developer",
-                  worksFor: { "@id": "https://me.sleepany.com/#organization" },
+                  worksFor: { "@id": "https://sleepany.com/#organization" },
                   sameAs: [
                     "https://github.com/iamjailan",
                     "https://linkedin.com/in/iamjailan",

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://me.sleepany.com/sitemap.xml",
+    sitemap: "https://sleepany.com/sitemap.xml",
   };
 }
