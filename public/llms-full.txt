@@ -24,11 +24,6 @@ Full Stack Developer with over 5 years of experience building production web and
 
 ## Professional Experience
 
-### Profitwave360 LLC
-**Software Engineer** | Remote | 2026 – Present
-
-Driving website modernization, SEO optimization, and performance improvements as a Software Engineer at Profitwave360 LLC. Delivering ongoing frontend and backend enhancements that directly impact the organization's online presence and user experience.
-
 ### blissio.ai
 **Backend Developer / Backend Team Lead** | Remote | 2024 – 2026
 
@@ -61,6 +56,7 @@ Actively seeking full-time and freelance opportunities in Full-Stack, Backend, F
 - JavaScript
 - TypeScript
 - Python
+- PHP
 
 ### Frameworks & Libraries
 - React
@@ -73,6 +69,7 @@ Actively seeking full-time and freelance opportunities in Full-Stack, Backend, F
 - Framer Motion
 - Redux
 - React Query
+- Laravel
 
 ### Databases & ORMs
 - PostgreSQL
@@ -80,6 +77,7 @@ Actively seeking full-time and freelance opportunities in Full-Stack, Backend, F
 - Prisma
 - TypeORM
 - Firebase
+- MySQL
 
 ### Cloud & Deployment
 - Docker
@@ -106,7 +104,16 @@ Actively seeking full-time and freelance opportunities in Full-Stack, Backend, F
 
 ## Featured Projects
 
-My most recent personal project is Sunzala Afghan Store. You can click on any project to view the live demo or explore the source code. Please note that many of these projects are from earlier stages of my career, as the majority of my professional time has been spent building production applications for companies.
+My most recent personal project is ResumeAF, a CV and resume builder. You can click on any project to view the live demo or explore the source code. Please note that many of these projects are from earlier stages of my career, as the majority of my professional time has been spent building production applications for companies.
+
+### ResumeAF (2026)
+A CV and resume builder. Create your CV or resume, choose a template, and export it.
+
+**Technologies:** PHP, Laravel, React, Next.js, Tailwind, MySQL
+
+**Links:**
+- Live: https://resume.sleepany.com/
+- GitHub: https://github.com/iamjailan
 
 ### Sunzala Afghan Store (2026)
 An Afghan marketplace connecting buyers with authentic local products including crafts, spices, clothing, and gemstones.

@@ -71,13 +71,15 @@ export default function Project({
             ))}
           </ul>
           <section className="flex justify-around items-center mt-3">
-            <Link
-              className="cursor-pointer text-lg opacity-70 transition-opacity duration-300 hover:opacity-100"
-              href={githubUrl}
-              target="_blank"
-            >
-              <BsGithub />
-            </Link>
+            {githubUrl && /github\.com\/[^/]+\/.+/.test(githubUrl) && (
+              <Link
+                className="cursor-pointer text-lg opacity-70 transition-opacity duration-300 hover:opacity-100"
+                href={githubUrl}
+                target="_blank"
+              >
+                <BsGithub />
+              </Link>
+            )}
             <Link
               className="cursor-pointer text-lg opacity-70 transition-opacity duration-300 hover:opacity-100"
               href={linkUrl}

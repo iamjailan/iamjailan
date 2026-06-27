@@ -14,11 +14,11 @@ export default function Projects() {
       <SectionHeading>My projects</SectionHeading>
       <div className="max-w-[42rem] mx-auto">
         <p className="mb-8 text-gray-700 dark:text-white/70">
-          My most recent personal project is Sunzala Afghan Store. You can click
-          on any project card to view the live demo or explore the source code on
-          GitHub. Please note that many of these projects are from earlier stages
-          of my career, as the majority of my professional time has been spent
-          building production applications for companies.
+          My most recent personal project is ResumeAF, a CV and resume builder.
+          You can click on any project card to view the live demo or explore the
+          source code on GitHub. Please note that many of these projects are from
+          earlier stages of my career, as the majority of my professional time has
+          been spent building production applications for companies.
         </p>
         <div>
           {projectsData.map((project, index) => (

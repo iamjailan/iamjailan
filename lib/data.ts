@@ -7,6 +7,7 @@ import chatak from "@/public/chatak.webp";
 import wadan from "@/public/wadan.webp";
 import marghai from "@/public/marghai.webp";
 import sunzala from "@/public/sunzala-project.webp";
+import resumeAF from "@/public/resume_af.png";
 
 export const experiencesData = [
   {
@@ -37,15 +38,6 @@ export const experiencesData = [
     date: "2024 – 2026",
   },
   {
-    title: "Software Engineer",
-    location: "Remote – Profitwave360 LLC",
-    url: "https://profitwave360.com",
-    description:
-      "Driving website modernization, SEO optimization, and performance improvements as a Software Engineer at Profitwave360 LLC — delivering enhancements that contributed to a 30%+ improvement in key web vitals and organic visibility.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2026 – Present",
-  },
-  {
     title: "Open to Opportunities",
     location: "Remote & On-site",
     description:
@@ -56,6 +48,16 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "ResumeAF",
+    description:
+      "A CV and resume builder. Create your CV or resume, choose a template, and export it.",
+    tags: ["PHP", "Laravel", "React", "Next.js", "Tailwind", "MySQL"],
+    imageUrl: resumeAF,
+    linkUrl: "https://resume.sleepany.com/",
+    githubUrl: "https://github.com/iamjailan",
+    year: "2026",
+  },
   {
     title: "Sunzala Afghan Store",
     description:
@@ -122,7 +124,7 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = {
-  "Programming Languages": ["JavaScript", "TypeScript", "Python"],
+  "Programming Languages": ["JavaScript", "TypeScript", "Python", "PHP"],
   "Frameworks & Libraries": [
     "React",
     "Next.js",
@@ -135,6 +137,7 @@ export const skillsData = {
     "Redux",
     "React Query",
     "FastAPI",
+    "Laravel",
   ],
   "Databases & ORMs": [
     "PostgreSQL",
@@ -142,6 +145,7 @@ export const skillsData = {
     "Prisma",
     "TypeORM",
     "Firebase",
+    "MySQL",
   ],
   "Cloud & Deployment": [
     "Docker",
