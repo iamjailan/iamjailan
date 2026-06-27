@@ -39,7 +39,23 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <p className="font-normal !mt-0">
+                {"url" in item && item.url ? (
+                  <>
+                    {item.location.split("–")[0].trim()}{" "}
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      {item.location.split("–")[1].trim()}
+                    </a>
+                  </>
+                ) : (
+                  item.location
+                )}
+              </p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>

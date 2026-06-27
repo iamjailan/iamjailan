@@ -12,6 +12,7 @@ export const experiencesData = [
   {
     title: "Full-Stack Developer",
     location: "Kabul, AF – MCCO.af",
+    url: "https://mcco.af",
     description:
       "Built and launched MCCO's official website from the ground up as the sole Full-Stack Developer. Designed the full-stack architecture using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment — delivering a production-ready platform in under 3 months.",
     icon: React.createElement(LuGraduationCap),
@@ -20,6 +21,7 @@ export const experiencesData = [
   {
     title: "Full-Stack Developer",
     location: "Kabul, AF – AseelApp",
+    url: "https://aseelapp.com",
     description:
       "Progressed through three distinct roles at AseelApp over 12 months: started as Backend Developer building core APIs, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform — collaborating with cross-functional teams throughout.",
     icon: React.createElement(CgWorkAlt),
@@ -28,6 +30,7 @@ export const experiencesData = [
   {
     title: "Full-Stack Developer",
     location: "Remote – blissio.ai",
+    url: "https://blissio.ai",
     description:
       "Led the backend team at blissio.ai, architecting and shipping production APIs for the core platform. Managed application and API deployments across Azure, Google Cloud, and Digital Ocean using Docker, supported AI model integrations, and later contributed to the React Native mobile frontend.",
     icon: React.createElement(CgWorkAlt),
@@ -36,6 +39,7 @@ export const experiencesData = [
   {
     title: "Software Engineer",
     location: "Remote – Profitwave360 LLC",
+    url: "https://profitwave360.com",
     description:
       "Driving website modernization, SEO optimization, and performance improvements as a Software Engineer at Profitwave360 LLC — delivering enhancements that contributed to a 30%+ improvement in key web vitals and organic visibility.",
     icon: React.createElement(CgWorkAlt),
