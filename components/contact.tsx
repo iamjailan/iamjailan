@@ -22,7 +22,7 @@ declare global {
     turnstile?: {
       render: (
         container: HTMLElement | string,
-        options: TurnstileRenderOptions
+        options: TurnstileRenderOptions,
       ) => string;
       reset: (widgetId?: string) => void;
       remove: (widgetId: string) => void;
@@ -30,8 +30,7 @@ declare global {
   }
 }
 
-const turnstileSiteKey =
-  process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY;
+const turnstileSiteKey = process.env.NEXT_PUBLIC_CLOUDFLARE_TURNSTILE_SITE_KEY;
 
 const getBrowserInfo = () => {
   const navigatorWithUserAgentData = window.navigator as Navigator & {
@@ -93,7 +92,7 @@ export default function Contact() {
         callback: (token) => setTurnstileToken(token),
         "expired-callback": () => setTurnstileToken(""),
         "error-callback": () => setTurnstileToken(""),
-      }
+      },
     );
   }, [turnstileLoaded]);
 
@@ -145,8 +144,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:ahmadjailan2012@gmail.com">
-          ahmadjailan2012@gmail.com
+        <a className="underline" href="mailto:jailan.samun@gmail.com">
+          jailan.samun@gmail.com
         </a>{" "}
         or through this form.
       </p>
