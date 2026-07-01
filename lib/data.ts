@@ -148,6 +148,7 @@ export const skillsData = {
     "GraphQL",
     "Framer Motion",
     "Redux",
+    "Zustand",
     "React Query",
     "FastAPI",
     "Laravel",
@@ -155,6 +156,7 @@ export const skillsData = {
   "Databases & ORMs": [
     "PostgreSQL",
     "MongoDB",
+    "Redis",
     "Prisma",
     "TypeORM",
     "Firebase",
