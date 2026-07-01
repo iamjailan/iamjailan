@@ -56,9 +56,17 @@ export default function Experience() {
                   item.location
                 )}
               </p>
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
-              </p>
+              {Array.isArray(item.description) ? (
+                <ul className="!mt-1 list-disc pl-5 !font-normal text-gray-700 dark:text-white/75">
+                  {item.description.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                  {item.description}
+                </p>
+              )}
             </VerticalTimelineElement>
           )) as ReactNode
         }

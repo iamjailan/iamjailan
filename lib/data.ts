@@ -11,22 +11,35 @@ import resumeAF from "@/public/resume_af.png";
 
 export const experiencesData = [
   {
+    title: "Web Developer",
+    location: "Afghanistan – Dursa",
+    description: [
+      "Developed and maintained the Dursa website using Next.js, React, and Tailwind CSS.",
+      "Built responsive, user-friendly, and accessible web interfaces.",
+      "Implemented new features and enhanced existing functionality based on project requirements.",
+      "Optimized website performance and improved page load speed.",
+      "Collaborated with the team to deliver high-quality, maintainable code.",
+    ],
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2022 – Jan 2023",
+  },
+  {
     title: "Full-Stack Developer",
     location: "Kabul, AF – MCCO.af",
     url: "https://mcco.af",
     description:
-      "Built and launched MCCO's official website from the ground up as the sole Full-Stack Developer. Designed the full-stack architecture using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment — delivering a production-ready platform in under 3 months.",
+      "Built and launched MCCO's official website from the ground up as the sole Full-Stack Developer. Designed the full-stack architecture using Next.js, Tailwind CSS, and MongoDB, and managed the complete application deployment, delivering a production-ready platform in under 3 months.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023",
+    date: "Feb 2023 – Dec 2023",
   },
   {
     title: "Full-Stack Developer",
     location: "Kabul, AF – AseelApp",
     url: "https://aseelapp.com",
     description:
-      "Progressed through three distinct roles at AseelApp over 12 months: started as Backend Developer building core APIs, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform — collaborating with cross-functional teams throughout.",
+      "Progressed through three distinct roles at AseelApp over 12 months: started as Backend Developer building core APIs, transitioned to React Native mobile development on the Aseel Atalan app, then led frontend development on the main web platform, collaborating with cross-functional teams throughout.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 – 2024",
+    date: "Dec 2023 – Aug 2024",
   },
   {
     title: "Full-Stack Developer",
@@ -35,7 +48,7 @@ export const experiencesData = [
     description:
       "Led the backend team at blissio.ai, architecting and shipping production APIs for the core platform. Managed application and API deployments across Azure, Google Cloud, and Digital Ocean using Docker, supported AI model integrations, and later contributed to the React Native mobile frontend.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 – 2026",
+    date: "Sep 2024 – May 2026",
   },
   {
     title: "Open to Opportunities",
