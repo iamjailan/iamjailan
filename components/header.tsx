@@ -5,6 +5,13 @@ import { links } from "@/lib/navigation";
 import Link from "next/link";
 import clsx from "clsx";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { Globe } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
@@ -12,10 +19,10 @@ export default function Header() {
 
   return (
     <header className="z-[999] relative">
-      <div className="animate-header-slide-down fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"></div>
+      <div className="animate-header-slide-down fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[42rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"></div>
 
       <nav className="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
-        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5">
+        <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-4 sm:max-w-[38rem]">
           {links.map((link) => (
             <li
               className="animate-slide-down h-3/4 flex items-center justify-center relative"
@@ -27,7 +34,7 @@ export default function Header() {
                   {
                     "text-gray-950 dark:text-gray-200":
                       activeSection === link.name,
-                  }
+                  },
                 )}
                 href={link.hash}
                 onClick={() => {
@@ -38,13 +45,28 @@ export default function Header() {
                 {link.name}
 
                 {link.name === activeSection && (
-                  <span
-                    className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
-                  ></span>
+                  <span className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"></span>
                 )}
               </Link>
             </li>
           ))}
+          <li className="animate-slide-down h-3/4 flex items-center justify-center relative flex-shrink-0">
+            <DropdownMenu>
+              <DropdownMenuTrigger
+                className={clsx(
+                  "flex items-center gap-1 px-2 py-3 text-sm text-gray-500 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300 outline-none cursor-pointer sm:px-2.5",
+                )}
+              >
+                <Globe className="h-4 w-4" />
+                EN
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                <DropdownMenuItem>English</DropdownMenuItem>
+                <DropdownMenuItem>پښتو</DropdownMenuItem>
+                <DropdownMenuItem>فارسی</DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </li>
         </ul>
       </nav>
     </header>
