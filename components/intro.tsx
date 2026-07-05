@@ -7,6 +7,7 @@ import { RiDeepseekFill } from "react-icons/ri";
 import { RiGrokAiFill } from "react-icons/ri";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { toast } from "react-hot-toast";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -21,21 +22,31 @@ export default function Intro() {
     {
       label: "ChatGPT",
       href: (p: string) => `https://chatgpt.com/?q=${encodeURIComponent(p)}`,
-      icon: <BsOpenai className="w-[22px] h-[22px]" style={{ color: "#74AA9C" }} />,
+      icon: (
+        <BsOpenai className="w-[22px] h-[22px]" style={{ color: "#74AA9C" }} />
+      ),
     },
     {
       label: "Claude",
       href: (p: string) => `https://claude.ai/new?q=${encodeURIComponent(p)}`,
-      icon: <BsClaude className="w-[22px] h-[22px]" style={{ color: "#D97706" }} />,
+      icon: (
+        <BsClaude className="w-[22px] h-[22px]" style={{ color: "#D97706" }} />
+      ),
     },
     {
       label: "Grok",
       href: (p: string) => `https://grok.com/?q=${encodeURIComponent(p)}`,
-      icon: <RiGrokAiFill className="w-[22px] h-[22px]" style={{ color: "#000000" }} />,
+      icon: (
+        <RiGrokAiFill
+          className="w-[22px] h-[22px]"
+          style={{ color: "#000000" }}
+        />
+      ),
     },
     {
       label: "Gemini",
-      href: (p: string) => `https://gemini.google.com/app?prompt=${encodeURIComponent(p)}`,
+      href: (p: string) =>
+        `https://gemini.google.com/app?prompt=${encodeURIComponent(p)}`,
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,8 +61,13 @@ export default function Intro() {
     },
     {
       label: "DeepSeek",
-      href: (p: string) => `https://chat.deepseek.com/?q=${encodeURIComponent(p)}`,
-      icon: <RiDeepseekFill className="w-[22px] h-[22px]" style={{ color: "#4D6BFE" }} />,
+      href: (p: string) => `https://chat.deepseek.com/`,
+      icon: (
+        <RiDeepseekFill
+          className="w-[22px] h-[22px]"
+          style={{ color: "#4D6BFE" }}
+        />
+      ),
     },
   ];
 
@@ -84,9 +100,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <h1
-        className="animate-rise mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-      >
+      <h1 className="animate-rise mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
         <span className="font-bold">Hello, I'm Jailan Samun.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">5 years</span> of experience building{" "}
@@ -156,6 +170,23 @@ export default function Intro() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={`Ask ${ai.label} about Jailan`}
+              onClick={(e) => {
+                if (ai.label === "Gemini" || ai.label === "DeepSeek") {
+                  e.preventDefault();
+                  navigator.clipboard.writeText(prompt);
+                  toast.success(
+                    `Prompt copied to clipboard, paste it in ${ai.label}.`,
+                  );
+
+                  setTimeout(() => {
+                    window.open(
+                      ai.href(prompt),
+                      "_blank",
+                      "noopener,noreferrer",
+                    );
+                  }, 2000);
+                }
+              }}
             >
               {ai.icon}
             </a>
