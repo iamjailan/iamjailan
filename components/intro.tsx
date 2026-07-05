@@ -2,7 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsLinkedin, BsClaude, BsOpenai } from "react-icons/bs";
+import { RiDeepseekFill } from "react-icons/ri";
+import { RiGrokAiFill } from "react-icons/ri";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -11,6 +13,47 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 export default function Intro() {
   const { ref } = useSectionInView("Home");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  const prompt =
+    "Who is Jailan Samun? He is a full-stack developer with 5 years of experience building modern web apps. See details at his portfolio https://sleepany.com , LinkedIn https://linkedin.com/in/iamjailan and GitHub https://github.com/iamjailan . Tell me about his background, experience, skills and projects.";
+
+  const aiAssistants = [
+    {
+      label: "ChatGPT",
+      href: (p: string) => `https://chatgpt.com/?q=${encodeURIComponent(p)}`,
+      icon: <BsOpenai className="w-[22px] h-[22px]" style={{ color: "#74AA9C" }} />,
+    },
+    {
+      label: "Claude",
+      href: (p: string) => `https://claude.ai/new?q=${encodeURIComponent(p)}`,
+      icon: <BsClaude className="w-[22px] h-[22px]" style={{ color: "#D97706" }} />,
+    },
+    {
+      label: "Grok",
+      href: (p: string) => `https://grok.com/?q=${encodeURIComponent(p)}`,
+      icon: <RiGrokAiFill className="w-[22px] h-[22px]" style={{ color: "#000000" }} />,
+    },
+    {
+      label: "Gemini",
+      href: (p: string) => `https://gemini.google.com/app?prompt=${encodeURIComponent(p)}`,
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="w-[22px] h-[22px]"
+          style={{ color: "#4285F4" }}
+        >
+          <path d="M12 2l2.35 7.05L22 12l-7.65 2.95L12 22l-2.35-7.05L2 12l7.65-2.95L12 2z" />
+        </svg>
+      ),
+    },
+    {
+      label: "DeepSeek",
+      href: (p: string) => `https://chat.deepseek.com/?q=${encodeURIComponent(p)}`,
+      icon: <RiDeepseekFill className="w-[22px] h-[22px]" style={{ color: "#4D6BFE" }} />,
+    },
+  ];
 
   return (
     <section
@@ -97,6 +140,27 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
+      </div>
+
+      {/* AI chat buttons - bottom section, icon-only */}
+      <div className="mt-3 flex flex-col items-center">
+        <div className="mb-1 text-[10px] font-medium uppercase tracking-[1.5px] text-gray-400 dark:text-gray-500">
+          Ask AI
+        </div>
+        <div className="flex items-center justify-center gap-2">
+          {aiAssistants.map((ai, i) => (
+            <a
+              key={i}
+              className="bg-white p-4 text-gray-700 flex items-center justify-center rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+              href={ai.href(prompt)}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Ask ${ai.label} about Jailan`}
+            >
+              {ai.icon}
+            </a>
+          ))}
+        </div>
       </div>
     </section>
   );
