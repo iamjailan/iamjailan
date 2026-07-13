@@ -12,10 +12,27 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useLocale, useTranslations } from "next-intl";
+import { usePathname, useRouter } from "@/i18n/navigation";
+import {
+  Locale,
+  localeLabels,
+  localeNames,
+  routing,
+} from "@/i18n/routing";
 
 export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
+  const t = useTranslations("Nav");
+  const tLocale = useTranslations("LocaleSwitcher");
+  const locale = useLocale() as Locale;
+  const pathname = usePathname();
+  const router = useRouter();
+
+  const switchLocale = (nextLocale: Locale) => {
+    router.replace(pathname, { locale: nextLocale });
+  };
 
   return (
     <header className="z-[999] relative">
@@ -42,7 +59,7 @@ export default function Header() {
                   setTimeOfLastClick(Date.now());
                 }}
               >
-                {link.name}
+                {t(link.name)}
 
                 {link.name === activeSection && (
                   <span className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"></span>
@@ -56,14 +73,21 @@ export default function Header() {
                 className={clsx(
                   "flex items-center gap-1 px-2 py-3 text-sm text-gray-500 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300 outline-none cursor-pointer sm:px-2.5",
                 )}
+                aria-label={tLocale("label")}
               >
                 <Globe className="h-4 w-4" />
-                EN
+                {localeLabels[locale]}
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
-                <DropdownMenuItem>English</DropdownMenuItem>
-                <DropdownMenuItem>پښتو</DropdownMenuItem>
-                <DropdownMenuItem>فارسی</DropdownMenuItem>
+                {routing.locales.map((loc) => (
+                  <DropdownMenuItem
+                    key={loc}
+                    onClick={() => switchLocale(loc)}
+                    className={clsx(locale === loc && "font-semibold")}
+                  >
+                    {localeNames[loc]}
+                  </DropdownMenuItem>
+                ))}
               </DropdownMenuContent>
             </DropdownMenu>
           </li>

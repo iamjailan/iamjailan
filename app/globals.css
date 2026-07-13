@@ -2,7 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&:is(.dark, .dark *));
 
 html {
   --line-color: #e5e7eb;
@@ -198,6 +198,50 @@ html.dark {
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+.font-estedad {
+  font-family: "Estedad", ui-sans-serif, system-ui, sans-serif;
+}
+
+html[dir="rtl"] .experience-timeline {
+  direction: ltr;
+}
+
+html[dir="rtl"] .experience-timeline .vertical-timeline-element-content {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .experience-timeline .experience-timeline-date,
+html[dir="rtl"] .experience-timeline .vertical-timeline-element-date {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1169px) {
+  html[dir="rtl"]
+    .experience-timeline
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: start;
+    padding-top: 0.25rem;
+  }
+}
+
+@media only screen and (min-width: 1170px) {
+  html[dir="rtl"]
+    .experience-timeline.vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    width: auto;
+    max-width: 40%;
+    white-space: nowrap;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -205,7 +249,11 @@ html.dark {
   body {
     @apply bg-background text-foreground;
   }
-  html {
+  html:not(.font-estedad) {
     @apply font-sans;
+  }
+  html.font-estedad,
+  html.font-estedad body {
+    font-family: "Estedad", ui-sans-serif, system-ui, sans-serif;
   }
 }

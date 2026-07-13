@@ -8,6 +8,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
+import { useTranslations } from "next-intl";
 
 type TurnstileRenderOptions = {
   sitekey: string;
@@ -67,6 +68,7 @@ const getLocalTimeZone = () => {
 
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const t = useTranslations("Contact");
   const formRef = React.useRef<HTMLFormElement>(null);
   const turnstileContainerRef = React.useRef<HTMLDivElement>(null);
   const turnstileWidgetIdRef = React.useRef<string | null>(null);
@@ -140,14 +142,14 @@ export default function Contact() {
           onReady={() => setTurnstileLoaded(true)}
         />
       ) : null}
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>{t("title")}</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        {t("descriptionBefore")}{" "}
         <a className="underline" href="mailto:jailan.samun@gmail.com">
           jailan.samun@gmail.com
         </a>{" "}
-        or through this form.
+        {t("descriptionAfter")}
       </p>
 
       <form
@@ -155,7 +157,7 @@ export default function Contact() {
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           if (!turnstileToken) {
-            toast.error("Please complete the security check.");
+            toast.error(t("securityCheck"));
             return;
           }
 
@@ -174,7 +176,7 @@ export default function Contact() {
           }
 
           formRef.current?.reset();
-          toast.success("Email sent successfully!");
+          toast.success(t("success"));
         }}
       >
         <input
@@ -183,12 +185,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder={t("emailPlaceholder")}
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder={t("messagePlaceholder")}
           required
           maxLength={5000}
         />
@@ -203,7 +205,7 @@ export default function Contact() {
             <div ref={turnstileContainerRef} />
           ) : (
             <p className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
-              Contact form verification is not configured.
+              {t("notConfigured")}
             </p>
           )}
         </div>
