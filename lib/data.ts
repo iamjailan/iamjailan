@@ -157,12 +157,12 @@ export const skillsData = {
   databasesOrm: [
     "postgresql",
     "mongodb",
-    "redis",
     "prisma",
     "typeorm",
     "firebase",
     "mysql",
   ],
+  messagingCaching: ["redis", "rabbitmq", "kafka"],
   cloudDeployment: [
     "docker",
     "azure",
