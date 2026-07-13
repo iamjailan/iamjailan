@@ -3,9 +3,11 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
+import { useTranslations } from "next-intl";
 
 export default function About() {
   const { ref } = useSectionInView("About");
+  const t = useTranslations("About");
 
   return (
     <section
@@ -14,24 +16,13 @@ export default function About() {
       style={{ animationDelay: "175ms" }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        Full Stack Developer with over 5 years of experience building and
-        scaling production web and mobile applications, designing APIs, and
-        delivering responsive frontend experiences. I specialize in React,
-        Next.js, Node.js, NestJS, and modern backend systems, with a track
-        record of shipping real products across startups and established
-        companies.
-      </p>
+      <SectionHeading>{t("title")}</SectionHeading>
+      <p className="mb-3">{t("p1")}</p>
 
       <p>
-        My favorite part of programming is solving complex problems end-to-end.
-        My core stack is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, NestJS, TypeScript, PostgreSQL, and Prisma
-        </span>
-        . I am also experienced with React Query, Redux, Docker, and cloud
-        deployment workflows.
+        {t("p2Before")}{" "}
+        <span className="font-medium">{t("stack")}</span>
+        {t("p2After")}
       </p>
     </section>
   );

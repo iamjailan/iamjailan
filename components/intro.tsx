@@ -10,13 +10,14 @@ import { FaGithubSquare } from "react-icons/fa";
 import { toast } from "react-hot-toast";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { useTranslations } from "next-intl";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const t = useTranslations("Intro");
 
-  const prompt =
-    "Who is Jailan Samun? He is a full-stack developer with 5 years of experience building modern web apps. See details at his portfolio https://sleepany.com , LinkedIn https://linkedin.com/in/iamjailan and GitHub https://github.com/iamjailan . Tell me about his background, experience, skills and projects.";
+  const prompt = t("aiPrompt");
 
   const aiAssistants = [
     {
@@ -82,7 +83,7 @@ export default function Intro() {
           <div className="animate-scale-in">
             <img
               src="/profile-avatar.webp"
-              alt="Jailan Samun"
+              alt={t("profileAlt")}
               width="96"
               height="96"
               fetchPriority="high"
@@ -92,7 +93,7 @@ export default function Intro() {
           </div>
 
           <span
-            className="animate-scale-in absolute bottom-0 right-0 text-4xl"
+            className="animate-scale-in absolute bottom-0 end-0 text-4xl"
             style={{ animationDelay: "100ms" }}
           >
             👋
@@ -101,15 +102,10 @@ export default function Intro() {
       </div>
 
       <h1 className="animate-rise mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-[35px]">
-        <span className="font-bold">Hello, I'm Jailan Samun.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience delivering{" "}
-        <span className="font-bold">end-to-end web applications</span>. I've
-        worked on everything from{" "}
-        <span className="font-bold">responsive user interfaces</span> to{" "}
-        <span className="font-bold">backend services</span>, databases, and
-        deployment, always focusing on building{" "}
-        <span className="underline">reliable and scalable products</span>.
+        {t.rich("content", {
+          bold: (chunks) => <span className="font-bold">{chunks}</span>,
+          underline: (chunks) => <span className="underline">{chunks}</span>,
+        })}
       </h1>
 
       <div
@@ -124,8 +120,8 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          {t("contactMe")}{" "}
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition rtl:rotate-180 rtl:group-hover:-translate-x-1 rtl:group-hover:translate-x-0" />
         </Link>
 
         <a
@@ -133,7 +129,7 @@ export default function Intro() {
           href="/Jailan-Samun-CV-2026.pdf"
           download
         >
-          Download CV{" "}
+          {t("downloadCv")}{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
@@ -157,7 +153,7 @@ export default function Intro() {
       {/* AI chat buttons - bottom section, icon-only */}
       <div className="mt-3 flex flex-col items-center">
         <div className="mb-1 text-[10px] font-medium uppercase tracking-[1.5px] text-gray-400 dark:text-gray-500">
-          Ask AI
+          {t("askAi")}
         </div>
         <div className="flex items-center justify-center gap-2">
           {aiAssistants.map((ai, i) => (
@@ -167,14 +163,12 @@ export default function Intro() {
               href={ai.href(prompt)}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label={`Ask ${ai.label} about Jailan`}
+              aria-label={t("askAiAria", { label: ai.label })}
               onClick={(e) => {
                 if (ai.label === "Gemini" || ai.label === "DeepSeek") {
                   e.preventDefault();
                   navigator.clipboard.writeText(prompt);
-                  toast.success(
-                    `Prompt copied to clipboard, paste it in ${ai.label}.`,
-                  );
+                  toast.success(t("promptCopied", { label: ai.label }));
 
                   setTimeout(() => {
                     window.open(
