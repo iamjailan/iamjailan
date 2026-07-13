@@ -59,7 +59,8 @@ export default async function RootLayout({ children }: Props) {
       </head>
       <body
         className={cn(
-          isRtl ? "font-estedad" : inter.className,
+          inter.className,
+          isRtl && "font-estedad",
           // Use text-gray-50/90 (not text-opacity) so tailwind-merge keeps the dark color.
           "bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50/90",
         )}

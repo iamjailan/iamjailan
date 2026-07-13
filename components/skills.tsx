@@ -34,9 +34,11 @@ export default function Skills() {
       <SectionHeading>{t("title")}</SectionHeading>
       <div className="space-y-6">
         {(Object.entries(skillsData) as [SkillCategoryId, readonly string[]][]).map(
-          ([category, skills]) => {
+          ([category, skillIds]) => {
             const items =
-              category === "languages" ? [t("languagesSkill")] : [...skills];
+              category === "languages"
+                ? [t("languagesSkill")]
+                : skillIds.map((id) => t(`items.${id}`));
 
             return (
               <div key={category}>
@@ -47,7 +49,11 @@ export default function Skills() {
                   {items.map((skill, index) => (
                     <motion.li
                       className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
-                      key={index}
+                      key={
+                        category === "languages"
+                          ? "languagesSkill"
+                          : skillIds[index]
+                      }
                       variants={fadeInAnimationVariants}
                       initial="initial"
                       whileInView="animate"

@@ -27,7 +27,7 @@
   "About": {
     "title": "زما په اړه",
     "p1": "فولسټک پراخندوی چې له ۵ کلونو څخه زیاته تجربه لري د تولیدی ویب او موبایل اپونو په جوړولو او پراخولو، API ډیزاین او ځواب ویونکو فرانت‌انډ تجربو وړاندې کولو کې. زه په React، Next.js، Node.js، NestJS او عصري بک‌انډ سیسټمونو کې تخصص لرم، او په سټارټ‌اپونو او تاسیس شوو شرکتونو کې د واقعي محصولاتو وړاندې کولو سابقه لرم.",
-    "p2Before": "د پروګرامینګ زما خوښه برخه د پیچلو ستونزو له پیل څخه تر پایه حل کول دي. زما اصلي سټیک",
+    "p2Before": "د پروګرام لیکنې زما خوښه برخه د پیچلو ستونزو له پیل څخه تر پایه حل کول دي. زما اصلي سټیک",
     "stack": "React، Next.js، Node.js، NestJS، TypeScript، PostgreSQL او Prisma",
     "p2After": " دی. زه همدارنګه له React Query، Redux، Docker او کلاوډ ځای پرځای کولو کاري بهیرونو سره تجربه لرم."
   },
@@ -71,7 +71,7 @@
   "Skills": {
     "title": "زما مهارتونه",
     "categories": {
-      "programmingLanguages": "د پروګرامینګ ژبې",
+      "programmingLanguages": "د پروګرام لیکنې ژبې",
       "frameworksLibraries": "فریم‌ورکونه او کتابتونونه",
       "databasesOrm": "ډیټابیسونه او ORM",
       "cloudDeployment": "کلاوډ او ځای پرځای کول",
@@ -79,7 +79,45 @@
       "methodologies": "میتودولوژي",
       "languages": "ژبې"
     },
-    "languagesSkill": "انګلیسي: C۱ (سوداګریزه رواني) · پښتو · دري"
+    "items": {
+      "javascript": "جاواسکریپټ",
+      "typescript": "ټایپ‌اسکریپټ",
+      "python": "پایتون",
+      "php": "پي‌اچ‌پي",
+      "react": "React",
+      "nextjs": "Next.js",
+      "nodejs": "Node.js",
+      "nestjs": "Nest.js",
+      "express": "Express",
+      "restApis": "REST API ګانې",
+      "graphql": "GraphQL",
+      "framerMotion": "Framer Motion",
+      "redux": "Redux",
+      "zustand": "Zustand",
+      "reactQuery": "React Query",
+      "fastapi": "FastAPI",
+      "laravel": "Laravel",
+      "postgresql": "PostgreSQL",
+      "mongodb": "MongoDB",
+      "redis": "Redis",
+      "prisma": "Prisma",
+      "typeorm": "TypeORM",
+      "firebase": "Firebase",
+      "mysql": "MySQL",
+      "docker": "Docker",
+      "azure": "Azure",
+      "googleCloud": "Google Cloud",
+      "digitalOcean": "Digital Ocean",
+      "cicd": "CI/CD",
+      "githubActions": "GitHub Actions",
+      "git": "Git",
+      "tailwind": "Tailwind",
+      "medusajs": "MedusaJS",
+      "webPerformance": "د ویب فعالیت",
+      "seo": "SEO (تخنیکي او پر پاڼه)",
+      "agileScrum": "Agile / Scrum"
+    },
+    "languagesSkill": "انګلیسي: C۱ · پښتو · دري"
   },
   "Projects": {
     "title": "زما پروژې",
@@ -107,7 +145,7 @@
         "description": "څوژبیز د هوا اپ د React او OpenWeather API سره جوړ شوی."
       },
       "singar": {
-        "title": "د سینګر پلورنځی",
+        "title": "د سینګار پلورنځی",
         "description": "د برېښنایي سوداګرۍ اپ د React او Tailwind سره، د ذخیره کولو لپاره Firebase کاروي."
       }
     }
