@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import LocaleDocumentAttributes from "@/components/locale-document-attributes";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
@@ -207,6 +208,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       </div>
 
       <NextIntlClientProvider messages={messages}>
+        <LocaleDocumentAttributes />
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
