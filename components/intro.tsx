@@ -100,18 +100,16 @@ export default function Intro() {
         </div>
       </div>
 
-      <h1 className="animate-rise mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
+      <h1 className="animate-rise mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-[35px]">
         <span className="font-bold">Hello, I'm Jailan Samun.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience building{" "}
-        <span className="font-bold">modern web applications</span>,{" "}
-        <span className="font-bold">scalable APIs</span>, and polished user
-        experiences. My focus is{" "}
-        <span className="underline">
-          end-to-end product development with React, Next.js, Node.js, and
-          NestJS
-        </span>
-        .
+        <span className="font-bold">5 years</span> of experience delivering{" "}
+        <span className="font-bold">end-to-end web applications</span>. I've
+        worked on everything from{" "}
+        <span className="font-bold">responsive user interfaces</span> to{" "}
+        <span className="font-bold">backend services</span>, databases, and
+        deployment, always focusing on building{" "}
+        <span className="underline">reliable and scalable products</span>.
       </h1>
 
       <div
