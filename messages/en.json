@@ -60,6 +60,37 @@
         "location": "Remote – blissio.ai",
         "description": "Led the backend team at blissio.ai, architecting and shipping production APIs for the core platform. Managed application and API deployments across Azure, Google Cloud, and Digital Ocean using Docker, supported AI model integrations, and later contributed to the React Native mobile frontend."
       },
+      "otatickets": {
+        "title": "Full-Stack Developer",
+        "location": "Kabul, Afghanistan – OtaTickets.com",
+        "description": [
+          "Working as a Full-Stack Developer at OtaTickets.com, contributing to the development of a complete ticket reservation and booking platform.",
+          "Developing the frontend using React, Next.js, Tailwind CSS, and React Query for flight search, reservation, and booking workflows.",
+          "Building backend services and APIs using NestJS, Express.js, MySQL/SQL, gRPC, and RabbitMQ to support scalable ticketing operations.",
+          "Developing and integrating APIs with external airline and travel providers for real-time schedules, availability, pricing, and booking data.",
+          "Integrating provider data from Kam Air, Ariana Afghan Airlines, and Turkish Airlines to enable up-to-date flight options and seamless reservations."
+        ]
+      },
+      "sunzalaMarketplace": {
+        "title": "Founder & Developer",
+        "location": "Kabul, Afghanistan – Sunzala Marketplace",
+        "description": [
+          "Founded and independently developing a marketplace for digital and physical products.",
+          "Designing and developing the platform using Next.js, React, TypeScript, NestJS, and PostgreSQL.",
+          "Building scalable backend services and RESTful APIs for authentication, authorization, product management, orders, and user functionality.",
+          "Designing relational database schemas and implementing SQL queries, relationships, indexing, transactions, and data integrity with PostgreSQL.",
+          "Managing application architecture, deployment, infrastructure, and ongoing product development from concept to production."
+        ]
+      },
+      "profitwave360": {
+        "title": "Software Engineer",
+        "location": "Jailan Samun – Profitwave360 LLC",
+        "description": [
+          "Developed and maintained the Profitwave360 website, implementing new features and improving functionality and user experience.",
+          "Improved website performance, technical SEO, and page structure to support better search visibility and organic traffic.",
+          "Built and optimized service pages, calculators, and content-focused sections while applying SEO best practices for indexing and engagement."
+        ]
+      },
       "open": {
         "title": "Open to Opportunities",
         "location": "Remote & On-site",

@@ -59,6 +59,26 @@ export const experiencesData: ExperienceItem[] = [
     end: { year: 2026, month: 5 },
   },
   {
+    id: "otatickets",
+    url: "https://otatickets.com",
+    icon: React.createElement(CgWorkAlt),
+    start: { year: 2026, month: 1 },
+    end: "present",
+  },
+  {
+    id: "sunzalaMarketplace",
+    url: "https://sunzala.vercel.app",
+    icon: React.createElement(CgWorkAlt),
+    start: { year: 2026, month: 6 },
+    end: "present",
+  },
+  {
+    id: "profitwave360",
+    icon: React.createElement(CgWorkAlt),
+    start: { year: 2026, month: 5 },
+    end: { year: 2026, month: 7 },
+  },
+  {
     id: "open",
     icon: React.createElement(FaReact),
     start: null,
