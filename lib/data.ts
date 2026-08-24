@@ -62,7 +62,7 @@ export const experiencesData: ExperienceItem[] = [
     id: "otatickets",
     url: "https://otatickets.com",
     icon: React.createElement(CgWorkAlt),
-    start: { year: 2026, month: 1 },
+    start: { year: 2026, month: 8 },
     end: "present",
   },
   {
