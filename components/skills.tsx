@@ -6,6 +6,22 @@ import { skillsData, type SkillCategoryId } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import type { IconType } from "react-icons";
+import {
+  SiGo,
+  SiJavascript,
+  SiPhp,
+  SiPython,
+  SiTypescript,
+} from "react-icons/si";
+
+const programmingLanguageIcons: Record<string, IconType> = {
+  javascript: SiJavascript,
+  typescript: SiTypescript,
+  python: SiPython,
+  php: SiPhp,
+  go: SiGo,
+};
 
 const fadeInAnimationVariants = {
   initial: {
@@ -62,6 +78,12 @@ export default function Skills() {
                       }}
                       custom={index}
                     >
+                      {category === "programmingLanguages" &&
+                        programmingLanguageIcons[skillIds[index]] &&
+                        React.createElement(
+                          programmingLanguageIcons[skillIds[index]],
+                          { className: "mr-2 inline-block align-[-0.15em]" },
+                        )}
                       {skill}
                     </motion.li>
                   ))}
