@@ -16,13 +16,22 @@ export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const t = useTranslations("Experience");
   const locale = useLocale();
+  const sortedExperiences = [...experiencesData].sort((a, b) => {
+    if (!a.start) return 1;
+    if (!b.start) return -1;
+
+    return (
+      b.start.year - a.start.year ||
+      b.start.month - a.start.month
+    );
+  });
 
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>{t("title")}</SectionHeading>
       <VerticalTimeline lineColor="" className="experience-timeline">
         {
-          experiencesData.map((item, index) => {
+          sortedExperiences.map((item) => {
             const title = t(`items.${item.id}.title`);
             const location = t(`items.${item.id}.location`);
             const description = t.raw(`items.${item.id}.description`) as

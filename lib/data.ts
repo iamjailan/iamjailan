@@ -180,6 +180,7 @@ export const skillsData = {
     "mongodb",
     "prisma",
     "typeorm",
+    "gorm",
     "firebase",
     "mysql",
   ],

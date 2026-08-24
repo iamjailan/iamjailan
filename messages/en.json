@@ -138,6 +138,7 @@
       "kafka": "Kafka",
       "prisma": "Prisma",
       "typeorm": "TypeORM",
+      "gorm": "GORM",
       "firebase": "Firebase",
       "mysql": "MySQL",
       "docker": "Docker",
