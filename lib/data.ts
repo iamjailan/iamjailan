@@ -138,7 +138,7 @@ export const projectsData: ProjectItem[] = [
 
 /** Stable skill ids. Display labels live in messages/{locale}.json under Skills.items. */
 export const skillsData = {
-  programmingLanguages: ["javascript", "typescript", "python", "php"],
+  programmingLanguages: ["javascript", "typescript", "python", "php", "go"],
   frameworksLibraries: [
     "react",
     "nextjs",
@@ -153,6 +153,7 @@ export const skillsData = {
     "reactQuery",
     "fastapi",
     "laravel",
+    "gin",
   ],
   databasesOrm: [
     "postgresql",
