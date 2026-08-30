@@ -28,6 +28,7 @@ Full Stack Software Developer with 5+ years of experience building web and mobil
 - Node.js
 - Express.js
 - Python
+- Go
 - REST APIs
 - Authentication & Authorization
 - WebSockets
